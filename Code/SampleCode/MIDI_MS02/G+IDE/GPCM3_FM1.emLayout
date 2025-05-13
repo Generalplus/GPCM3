@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_layout_file>
+	<ActiveTarget name="Debug" />
+	<ExpandedNodes>
+		<Node path="/Sources/Library/Application/Source" />
+		<Node path="/Sources/Library/Application" />
+		<Node path="/Sources/Library/StdDriver/Source" />
+		<Node path="/Sources/Library/StdDriver" />
+		<Node path="/Sources/Library" />
+		<Node path="/Sources/SampleCode/MIDI_MS02/Src" />
+		<Node path="/Sources/SampleCode/MIDI_MS02" />
+		<Node path="/Sources/SampleCode" />
+		<Node path="/Sources" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1" />
+		<Node path="/Headers/Library/Device" />
+		<Node path="/Headers/Library" />
+		<Node path="/Headers" />
+		<Node path="/Others/Library/Lib" />
+		<Node path="/Others/Library" />
+		<Node path="/Others/SampleCode/MIDI_MS02/G+IDE/Setup" />
+		<Node path="/Others/SampleCode/MIDI_MS02/G+IDE" />
+		<Node path="/Others/SampleCode/MIDI_MS02" />
+		<Node path="/Others/SampleCode" />
+		<Node path="/Others" />
+	</ExpandedNodes>
+	<File name="..\Resource\SPIFC_TimingFineTuneBin_0x5A810A3C.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1754" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Device\GPCM3_FM1\Include\GPCM3_FM1.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="173188" topLine="3107" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\DAC_GPCM3_FM1.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3341" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="..\Src\main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2315" topLine="51" />
+		</Cursor>
+	</File>
+	<File name="User\BootHeader.s" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="445" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Src\KeyScan.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1168" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="User\User_bootcode.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3062" topLine="73" />
+		</Cursor>
+	</File>
+	<File name="..\Src\SACM_MS02_User.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6423" topLine="258" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\DAC_GPCM3_FM1.c" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="591" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Retarget_G+IDE.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1346" topLine="246" />
+		</Cursor>
+	</File>
+	<File name="User\User_initialization.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1578" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="User\User_startup.S" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1108" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Setup\GPCM3_FM1.ld" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8702" topLine="244" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Application\Source\APP_SwVolumeControl.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1444" topLine="18" />
+		</Cursor>
+	</File>
+	<Expand folder="/Sources/Library/Application/Source" />
+	<Expand folder="/Sources/Library/Application" />
+	<Expand folder="/Sources/Library/StdDriver/Source" />
+	<Expand folder="/Sources/Library/StdDriver" />
+	<Expand folder="/Sources/Library" />
+	<Expand folder="/Sources/SampleCode/MIDI_MS02/Src" />
+	<Expand folder="/Sources/SampleCode/MIDI_MS02" />
+	<Expand folder="/Sources/SampleCode" />
+	<Expand folder="/Sources" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1" />
+	<Expand folder="/Headers/Library/Device" />
+	<Expand folder="/Headers/Library" />
+	<Expand folder="/Headers" />
+	<Expand folder="/Others/Library/Lib" />
+	<Expand folder="/Others/Library" />
+	<Expand folder="/Others/SampleCode/MIDI_MS02/G+IDE/Setup" />
+	<Expand folder="/Others/SampleCode/MIDI_MS02/G+IDE" />
+	<Expand folder="/Others/SampleCode/MIDI_MS02" />
+	<Expand folder="/Others/SampleCode" />
+	<Expand folder="/Others" />
+	<UserSettings>
+		<bookmark>
+			<bookmarks>
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="4381" />
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="3516" />
+				<item Name="Bookmark" FileName="..\Src\Sleep_Test.c" Line="337" />
+				<item Name="Bookmark" FileName="..\Src\DMA_Test.c" Line="890" />
+			</bookmarks>
+		</bookmark>
+		<debugger>
+			<breakpoints>
+				<item bitsize="4915292" BreakpointType="0" filename="..\..\..\..\..\..\..\Test Code\VerABugTestCode\GPCM3_ShutDownTest_20220927\Project\UserBootCode\Src\main.c" filenameAsPassed="..\..\..\..\..\..\..\Test Code\VerABugTestCode\GPCM3_ShutDownTest_20220927\Project\UserBootCode\Src\main.c" line="197" index="-1" temporary="0" enabled="0" active="1" useIgnoreCount="0" ignoreCount="0" wantsCondition="0" condition="" func="" address="0" alreadySet="1" lineText="" breakAddress="0x04001e90" breakOnRead="0" breakOnWrite="1" hardware="0" />
+			</breakpoints>
+		</debugger>
+	</UserSettings>
+</emIDE_layout_file>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_layout_file>
+	<ActiveTarget name="Debug" />
+	<ExpandedNodes>
+		<Node path="/Sources/Library/Application/Source" />
+		<Node path="/Sources/Library/Application" />
+		<Node path="/Sources/Library/StdDriver" />
+		<Node path="/Sources/Library" />
+		<Node path="/Sources/SampleCode" />
+		<Node path="/Sources" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1/Include" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1" />
+		<Node path="/Headers/Library/Device" />
+		<Node path="/Headers/Library/MakeLib/A2000Ch1API" />
+		<Node path="/Headers/Library/MakeLib/A2000Ch2API" />
+		<Node path="/Headers/Library/MakeLib" />
+		<Node path="/Headers/Library" />
+		<Node path="/Headers/SampleCode" />
+		<Node path="/Headers" />
+		<Node path="/Others/Library/Lib" />
+		<Node path="/Others/Library" />
+		<Node path="/Others/SampleCode" />
+		<Node path="/Others" />
+	</ExpandedNodes>
+	<File name="..\Retarget_G+IDE.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1346" topLine="246" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\DMA_GPCM3_FM1.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5015" topLine="262" />
+		</Cursor>
+	</File>
+	<File name="..\Src\KeyScan.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1359" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="User\BootHeader.s" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="445" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="A18_Dec_kernel\basop32.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7878" topLine="175" />
+		</Cursor>
+	</File>
+	<File name="..\Src\SACM_A2000_CH2_User.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9425" topLine="219" />
+		</Cursor>
+	</File>
+	<File name="A18_Dec_kernel\defs.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5895" topLine="145" />
+		</Cursor>
+	</File>
+	<File name="..\Resource\SPIFC_TimingFineTuneBin_0x5A810A3C.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1754" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\DAC_GPCM3_FM1.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7838" topLine="356" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\DAC_GPCM3_FM1.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3002" topLine="47" />
+		</Cursor>
+	</File>
+	<File name="..\Src\GP_Eventor_User.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8170" topLine="240" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Device\GPCM3_FM1\Source\system_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1287" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="A18_Dec_kernel\a2000_dec.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="533" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="User\User_startup.S" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6518" topLine="170" />
+		</Cursor>
+	</File>
+	<File name="User\User_bootcode.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2864" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Application\Source\APP_SwVolumeControl.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1799" topLine="49" />
+		</Cursor>
+	</File>
+	<File name="..\Src\main.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2758" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\MakeLib\A2000Ch1API\A2000_LibTag_No_Located_On_SpiFlash.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="992" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Device\GPCM3_FM1\Include\GPCM3_FM1.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4702" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="..\Src\SACM_A2000_User.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6660" topLine="267" />
+		</Cursor>
+	</File>
+	<File name="Setup\GPCM3_FM1.ld" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8718" topLine="245" />
+		</Cursor>
+	</File>
+	<File name="User\User_initialization.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1534" topLine="29" />
+		</Cursor>
+	</File>
+	<Expand folder="/Sources/Library/Application/Source" />
+	<Expand folder="/Sources/Library/Application" />
+	<Expand folder="/Sources/Library/StdDriver" />
+	<Expand folder="/Sources/Library" />
+	<Expand folder="/Sources/SampleCode" />
+	<Expand folder="/Sources" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1/Include" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1" />
+	<Expand folder="/Headers/Library/Device" />
+	<Expand folder="/Headers/Library/MakeLib/A2000Ch1API" />
+	<Expand folder="/Headers/Library/MakeLib/A2000Ch2API" />
+	<Expand folder="/Headers/Library/MakeLib" />
+	<Expand folder="/Headers/Library" />
+	<Expand folder="/Headers/SampleCode" />
+	<Expand folder="/Headers" />
+	<Expand folder="/Others/Library/Lib" />
+	<Expand folder="/Others/Library" />
+	<Expand folder="/Others/SampleCode" />
+	<Expand folder="/Others" />
+	<UserSettings>
+		<bookmark>
+			<bookmarks>
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="4381" />
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="3516" />
+				<item Name="Bookmark" FileName="..\Src\Sleep_Test.c" Line="337" />
+				<item Name="Bookmark" FileName="..\Src\DMA_Test.c" Line="890" />
+			</bookmarks>
+		</bookmark>
+		<debugger>
+			<breakpoints />
+		</debugger>
+	</UserSettings>
+</emIDE_layout_file>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_project_file>
+	<FileVersion major="1" minor="7" />
+	<Project>
+		<Option title="GPCM3Test" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<SPIFlash>
+			<AfterDownload />
+		</SPIFlash>
+		<Option VerifyDownload="1" />
+		<Option DownloadLog="-1" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GPCM2_CM3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-O0" />
+					<Add option="-g" />
+					<Add option="-DDEBUG=1" />
+					<Add option="-fdata-sections" />
+					<Add option="-ffunction-sections" />
+					<Add option="-mcpu=cortex-m0" />
+					<Add option="-mlong-calls" />
+					<Add option="-mthumb" />
+					<Add directory="Inc" />
+					<Add directory="../../../Library/CMSIS/Include" />
+					<Add directory="../../../Library/StdDriver/Include" />
+					<Add directory="../Inc" />
+					<Add directory="../Resource/Song/FileMerger" />
+					<Add directory="../../../Library/Device/GPCM3_FM1/Include" />
+					<Add directory="../../../Library/Application/Include" />
+					<Add directory="../Resource" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-specs=nano.specs" />
+					<Add option="-mcpu=cortex-m0" />
+					<Add option="-Wl,--relax" />
+					<Add option="-mthumb" />
+					<Add option="-TSetup/GPCM3_FM1.ld" />
+					<Add option="-Wl,--no-wchar-size-warning" />
+				</Linker>
+				<PostOutput>
+					<ConvertedOutput PostOutputCreate="1" />
+					<ConvertedOutput PostOutputType="BIN" />
+					<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+				</PostOutput>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GPCM3Test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-mcpu=cortex-m0" />
+					<Add option="-mlong-calls" />
+					<Add option="-mthumb" />
+					<Add option="-O1" />
+					<Add directory="Inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-Wl,-Map" />
+					<Add option="-Wl,${TARGET_OUTPUT_FILE}.map" />
+					<Add option="-Wl,--gc-sections" />
+					<Add option="-n" />
+					<Add option="-Wl,-cref" />
+					<Add option="-specs=nano.specs" />
+					<Add option="-mcpu=cortex-m0" />
+					<Add option="-Wl,--relax" />
+					<Add option="-mthumb" />
+					<Add option="-TSetup/GPCM3Test.ld" />
+				</Linker>
+				<PostOutput>
+					<ConvertedOutput PostOutputCreate="1" />
+					<ConvertedOutput PostOutputType="BIN" />
+					<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+				</PostOutput>
+			</Target>
+		</Build>
+		<PostOutput>
+			<ConvertedOutput PostOutputCreate="0" />
+			<ConvertedOutput PostOutputType="HEX" />
+			<ConvertedOutput PostOutputFile="${TARGET_OUTPUT_DIR}${TARGET_OUTPUT_BASENAME}" />
+		</PostOutput>
+		<Unit filename="../../../Library/Application/Source/APP_SwVolumeControl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/Device/GPCM3_FM1/Include/GPCM3_FM1.h" />
+		<Unit filename="../../../Library/Device/GPCM3_FM1/Source/system_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/Lib/SPU_Driver_V0.9.1.0.lib" />
+		<Unit filename="../../../Library/StdDriver/Include/BootCode_SPIFC_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/CCP_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/DAC_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/DMA_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/DSADC_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/GPIO_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/I2C_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/MAC_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/SARADC_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/SPIFC_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/SPI_Flash_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/SPU_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/SYS_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/TimeBase_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/Timer_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/Uart_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Include/WDT_GPCM3_FM1.h" />
+		<Unit filename="../../../Library/StdDriver/Source/BootCode_SPIFC_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/CCP_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/DAC_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/DMA_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/DSADC_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/GPIO_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/I2C_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/MAC_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/SARADC_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/SPIFC_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/SPI_Flash_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/SPU_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/SYS_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/TimeBase_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/Timer_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/Uart_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../Library/StdDriver/Source/WDT_GPCM3_FM1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Inc/MIDI.h" />
+		<Unit filename="../Resource/MergedRes.o" />
+		<Unit filename="../Resource/SPIFC_TimingFineTuneBin_0x5A810A3C.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Retarget_G+IDE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Src/KeyScan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Src/MIDI_Table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Src/MIDI_User.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Doc/README.txt" />
+		<Unit filename="Setup/GPCM3_FM1.ld" />
+		<Unit filename="User/BootHeader.s" />
+		<Unit filename="User/User_bootcode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="User/User_initialization.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="User/User_startup.S" />
+		<Extensions>
+			<projectwizard TargetDevice="GPCM300A" isCreated="true" />
+			<code_completion />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="0" ip_address="localhost" ip_port="2331" clock_rate="1000" target_device="GPCM300A" remote_server="Build in GDB Server" Break_at_Main="0" Break_at_Main_Symbol="main" En_BeforeDownload_Script="0" En_AfterReset_Script="0" En_ReplaceBody_Script="0" En_StackOverflowDetection="1" En_Semihosting="0" En_StepMode="0" En_SupportRTOS="0" />
+				</remote_debugging>
+				<remote_debugging target="Debug">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="2331" clock_rate="1000" target_device="GPCM300A" remote_server="Build in GDB Server" Break_at_Main="1" Break_at_Main_Symbol="main" En_BeforeDownload_Script="0" En_AfterReset_Script="0" En_ReplaceBody_Script="0" En_StackOverflowDetection="0" En_Semihosting="0" En_StepMode="0" En_SupportRTOS="0" />
+				</remote_debugging>
+				<remote_debugging target="Release">
+					<options conn_type="0" serial_baud="115200" ip_address="localhost" ip_port="2331" clock_rate="1000" target_device="GPCM300A" remote_server="Build in GDB Server" Break_at_Main="1" Break_at_Main_Symbol="main" En_BeforeDownload_Script="0" En_AfterReset_Script="0" En_ReplaceBody_Script="0" En_StackOverflowDetection="0" En_Semihosting="0" En_StepMode="0" En_SupportRTOS="0" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</emIDE_project_file>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_layout_file>
+	<ActiveTarget name="Debug" />
+	<ExpandedNodes>
+		<Node path="/Sources/Library/Application/Source" />
+		<Node path="/Sources/Library/Application" />
+		<Node path="/Sources/Library/Device/GPCM3_FM1/Source" />
+		<Node path="/Sources/Library/Device/GPCM3_FM1" />
+		<Node path="/Sources/Library/Device" />
+		<Node path="/Sources/Library/StdDriver/Source" />
+		<Node path="/Sources/Library/StdDriver" />
+		<Node path="/Sources/Library" />
+		<Node path="/Sources/SampleCode" />
+		<Node path="/Sources" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1/Include" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1" />
+		<Node path="/Headers/Library/Device" />
+		<Node path="/Headers/Library/StdDriver" />
+		<Node path="/Headers/Library" />
+		<Node path="/Headers" />
+		<Node path="/Others/Library/Lib" />
+		<Node path="/Others/Library" />
+		<Node path="/Others/SampleCode/A1801_SPI Flash/G+IDE/Setup" />
+		<Node path="/Others/SampleCode/A1801_SPI Flash/G+IDE" />
+		<Node path="/Others/SampleCode/A1801_SPI Flash" />
+		<Node path="/Others/SampleCode" />
+		<Node path="/Others" />
+	</ExpandedNodes>
+	<File name="User\User_initialization.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1578" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Retarget_G+IDE.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1346" topLine="246" />
+		</Cursor>
+	</File>
+	<File name="..\Resource\SPIFC_TimingFineTuneBin_0x5A810A3C.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1754" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="User\User_bootcode.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3062" topLine="73" />
+		</Cursor>
+	</File>
+	<File name="User\BootHeader.s" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="445" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\SPI_Flash_GPCM3_FM1.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1477" topLine="517" />
+		</Cursor>
+	</File>
+	<File name="Setup\GPCM3_FM1.ld" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5060" topLine="243" />
+		</Cursor>
+	</File>
+	<File name="..\Src\SACM_A1801_User.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10761" topLine="381" />
+		</Cursor>
+	</File>
+	<File name="User\User_startup.S" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1108" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="..\Src\KeyScan.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1328" topLine="31" />
+		</Cursor>
+	</File>
+	<File name="..\Src\main.c" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3381" topLine="63" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Device\GPCM3_FM1\Include\GPCM3_FM1.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10970" topLine="141" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\SPI_Flash_GPCM3_FM1.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1502" topLine="24" />
+		</Cursor>
+	</File>
+	<Expand folder="/Sources/Library/Application/Source" />
+	<Expand folder="/Sources/Library/Application" />
+	<Expand folder="/Sources/Library/Device/GPCM3_FM1/Source" />
+	<Expand folder="/Sources/Library/Device/GPCM3_FM1" />
+	<Expand folder="/Sources/Library/Device" />
+	<Expand folder="/Sources/Library/StdDriver/Source" />
+	<Expand folder="/Sources/Library/StdDriver" />
+	<Expand folder="/Sources/Library" />
+	<Expand folder="/Sources/SampleCode" />
+	<Expand folder="/Sources" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1/Include" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1" />
+	<Expand folder="/Headers/Library/Device" />
+	<Expand folder="/Headers/Library/StdDriver" />
+	<Expand folder="/Headers/Library" />
+	<Expand folder="/Headers" />
+	<Expand folder="/Others/Library/Lib" />
+	<Expand folder="/Others/Library" />
+	<Expand folder="/Others/SampleCode/A1801_SPI Flash/G+IDE/Setup" />
+	<Expand folder="/Others/SampleCode/A1801_SPI Flash/G+IDE" />
+	<Expand folder="/Others/SampleCode/A1801_SPI Flash" />
+	<Expand folder="/Others/SampleCode" />
+	<Expand folder="/Others" />
+	<UserSettings>
+		<bookmark>
+			<bookmarks>
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="4381" />
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="3516" />
+				<item Name="Bookmark" FileName="..\Src\Sleep_Test.c" Line="337" />
+				<item Name="Bookmark" FileName="..\Src\DMA_Test.c" Line="890" />
+			</bookmarks>
+		</bookmark>
+		<debugger>
+			<breakpoints>
+				<item bitsize="7143529" BreakpointType="0" filename="..\Src\main.c" filenameAsPassed="..\Src\main.c" line="81" index="2" temporary="0" enabled="1" active="1" useIgnoreCount="0" ignoreCount="0" wantsCondition="0" condition="" func="" address="0" alreadySet="1" lineText="" breakAddress="0x04001fec" breakOnRead="0" breakOnWrite="1" hardware="0" />
+			</breakpoints>
+		</debugger>
+	</UserSettings>
+</emIDE_layout_file>

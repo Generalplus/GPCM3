@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<emIDE_layout_file>
+	<ActiveTarget name="Debug" />
+	<ExpandedNodes>
+		<Node path="/Sources/ExampleCode" />
+		<Node path="/Sources/Library/Device/GPCM3_FM1/Source" />
+		<Node path="/Sources/Library/Device/GPCM3_FM1" />
+		<Node path="/Sources/Library/Device" />
+		<Node path="/Sources/Library/StdDriver/Source" />
+		<Node path="/Sources/Library/StdDriver" />
+		<Node path="/Sources/Library" />
+		<Node path="/Sources" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1/Include" />
+		<Node path="/Headers/Library/Device/GPCM3_FM1" />
+		<Node path="/Headers/Library/Device" />
+		<Node path="/Headers/Library" />
+		<Node path="/Headers" />
+		<Node path="/Others/ExampleCode/SAR_ADC_UART_AutoMode/G+IDE/Setup" />
+		<Node path="/Others/ExampleCode/SAR_ADC_UART_AutoMode/G+IDE" />
+		<Node path="/Others/ExampleCode/SAR_ADC_UART_AutoMode" />
+		<Node path="/Others/ExampleCode" />
+		<Node path="/Others" />
+	</ExpandedNodes>
+	<File name="..\..\..\Library\StdDriver\Source\BootCode_SPIFC_GPCM3_FM1.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4292" topLine="77" />
+		</Cursor>
+	</File>
+	<File name="..\Src\main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3343" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="User\User_bootcode.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1185" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="..\Retarget_G+IDE.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1603" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\DAC_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\SPI_Flash_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="564" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Setup\GPCM3_FM1.ld" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8317" topLine="232" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\CCP_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="758" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\WDT_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="544" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\WDT_GPCM3_FM1.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1454" topLine="69" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\SARADC_GPCM3_FM1.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="619" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\Uart_GPCM3_FM1.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1154" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\DSADC_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\CCP_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="517" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Resource\SPIFC_TimingFineTuneBin_0x5A810A3C.c" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1754" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\BootCode_SPIFC_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="631" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\MAC_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="788" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="User\BootHeader.s" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="445" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\MAC_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\DAC_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\SPIFC_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="518" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\Timer_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\Uart_GPCM3_FM1.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4146" topLine="98" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\GPIO_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="787" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\SYS_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="528" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\SYS_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\I2C_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="784" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\I2C_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Device\GPCM3_FM1\Include\GPCM3_FM1.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="34037" topLine="600" />
+		</Cursor>
+	</File>
+	<File name="User\User_startup.S" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1779" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\SPI_Flash_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="316" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\DMA_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="User\User_initialization.c" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1852" topLine="21" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\Timer_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\SPIFC_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="321" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\SARADC_GPCM3_FM1.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5651" topLine="92" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\DMA_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="310" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\Src\KeyScan.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="821" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Include\TimeBase_GPCM3_FM1.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="803" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\TimeBase_GPCM3_FM1.c" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2453" topLine="41" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\Device\GPCM3_FM1\Source\system_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="744" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\GPIO_GPCM3_FM1.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1247" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\Library\StdDriver\Source\DSADC_GPCM3_FM1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="15" />
+		</Cursor>
+	</File>
+	<Expand folder="/Sources/ExampleCode" />
+	<Expand folder="/Sources/Library/Device/GPCM3_FM1/Source" />
+	<Expand folder="/Sources/Library/Device/GPCM3_FM1" />
+	<Expand folder="/Sources/Library/Device" />
+	<Expand folder="/Sources/Library/StdDriver/Source" />
+	<Expand folder="/Sources/Library/StdDriver" />
+	<Expand folder="/Sources/Library" />
+	<Expand folder="/Sources" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1/Include" />
+	<Expand folder="/Headers/Library/Device/GPCM3_FM1" />
+	<Expand folder="/Headers/Library/Device" />
+	<Expand folder="/Headers/Library" />
+	<Expand folder="/Headers" />
+	<Expand folder="/Others/ExampleCode/SAR_ADC_UART_AutoMode/G+IDE/Setup" />
+	<Expand folder="/Others/ExampleCode/SAR_ADC_UART_AutoMode/G+IDE" />
+	<Expand folder="/Others/ExampleCode/SAR_ADC_UART_AutoMode" />
+	<Expand folder="/Others/ExampleCode" />
+	<Expand folder="/Others" />
+	<UserSettings>
+		<bookmark>
+			<bookmarks>
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="4381" />
+				<item Name="Bookmark" FileName="..\..\..\Library\Device\GPCM1F064A\Include\GPCM3800.h" Line="3516" />
+				<item Name="Bookmark" FileName="..\Src\Sleep_Test.c" Line="337" />
+				<item Name="Bookmark" FileName="..\Src\DMA_Test.c" Line="890" />
+			</bookmarks>
+		</bookmark>
+		<debugger>
+			<breakpoints />
+		</debugger>
+	</UserSettings>
+</emIDE_layout_file>

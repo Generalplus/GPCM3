@@ -1,0 +1,1882 @@
+Debug: 17 0 options.c:98 add_default_dirs(): bindir=/usr/local/bin
+Debug: 18 0 options.c:99 add_default_dirs(): pkgdatadir=/usr/local/share/openocd
+Debug: 19 0 options.c:100 add_default_dirs(): run_prefix=D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/bin
+Debug: 20 0 configuration.c:44 add_script_search_dir(): adding C:\Users\kimhuang\AppData\Roaming/OpenOCD
+Debug: 21 0 configuration.c:44 add_script_search_dir(): adding D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/bin/usr/local/share/openocd/site
+Debug: 22 0 configuration.c:44 add_script_search_dir(): adding D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/bin/usr/local/share/openocd/scripts
+Debug: 23 0 configuration.c:84 find_file(): found D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/share/openocd/scripts/interface/cmsis-dap.cfg
+Debug: 24 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_interface cmsis-dap
+Debug: 25 0 command.c:145 script_debug(): command - interface ocd_interface cmsis-dap
+Debug: 27 0 command.c:366 register_command_handler(): registering 'ocd_cmsis-dap'...
+Debug: 28 0 command.c:366 register_command_handler(): registering 'ocd_cmsis-dap'...
+Debug: 29 0 command.c:366 register_command_handler(): registering 'ocd_cmsis-dap'...
+Debug: 30 0 command.c:366 register_command_handler(): registering 'ocd_cmsis-dap'...
+Debug: 31 0 command.c:366 register_command_handler(): registering 'ocd_cmsis_dap_vid_pid'...
+Debug: 32 0 command.c:366 register_command_handler(): registering 'ocd_cmsis_dap_path'...
+Debug: 33 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 34 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 35 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 36 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 37 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 38 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 39 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 40 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Debug: 41 0 command.c:366 register_command_handler(): registering 'ocd_jtag'...
+Info : 42 0 transport.c:118 allow_transports(): only one transport option; autoselect 'cmsis-dap'
+Debug: 43 0 adi_v5_cmsis_dap.c:281 cmsis_dap_select(): CMSIS-ADI: cmsis_dap_select
+Debug: 44 0 command.c:401 register_command(): command 'cmsis-dap' is already registered in '<global>' context
+Debug: 45 0 command.c:366 register_command_handler(): registering 'ocd_cmsis-dap'...
+Debug: 46 0 configuration.c:84 find_file(): found D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/share/openocd/scripts/target/GPCM3800A.cfg
+Debug: 47 0 configuration.c:84 find_file(): found D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/share/openocd/scripts/target/swj-dp.tcl
+Debug: 48 0 configuration.c:84 find_file(): found D:/Kim Area/Company/GP/Kim_Notebook/GPCM300/Tools/V1.1.3.3_20240222_NoCheckVersion/toolchain/openocd/share/openocd/scripts/mem_helper.tcl
+Debug: 49 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_add_usage_text mrw address
+Debug: 50 0 command.c:145 script_debug(): command - add_usage_text ocd_add_usage_text mrw address
+Debug: 52 0 command.c:1097 help_add_command(): added 'mrw' help text
+Debug: 53 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_add_help_text mrw Returns value of word in memory.
+Debug: 54 0 command.c:145 script_debug(): command - add_help_text ocd_add_help_text mrw Returns value of word in memory.
+Debug: 56 0 command.c:1110 help_add_command(): added 'mrw' help text
+Debug: 57 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_add_usage_text mmw address setbits clearbits
+Debug: 58 0 command.c:145 script_debug(): command - add_usage_text ocd_add_usage_text mmw address setbits clearbits
+Debug: 60 0 command.c:1097 help_add_command(): added 'mmw' help text
+Debug: 61 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_add_help_text mmw Modify word in memory. new_val = (old_val & ~clearbits) | setbits;
+Debug: 62 0 command.c:145 script_debug(): command - add_help_text ocd_add_help_text mmw Modify word in memory. new_val = (old_val & ~clearbits) | setbits;
+Debug: 64 0 command.c:1110 help_add_command(): added 'mmw' help text
+Debug: 65 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_transport select
+Debug: 66 0 command.c:145 script_debug(): command - ocd_transport ocd_transport select
+Debug: 67 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_cmsis-dap newdap GBQ868 cpu -irlen 4 -ircapture 0x1 -irmask 0xf -expected-id 0x4ba00477
+Debug: 68 0 command.c:145 script_debug(): command - ocd_cmsis-dap ocd_cmsis-dap newdap GBQ868 cpu -irlen 4 -ircapture 0x1 -irmask 0xf -expected-id 0x4ba00477
+Debug: 69 0 tcl.c:554 jim_newtap_cmd(): Creating New Tap, Chip: GBQ868, Tap: cpu, Dotted: GBQ868.cpu, 8 params
+Debug: 70 0 tcl.c:571 jim_newtap_cmd(): Processing option: -irlen
+Debug: 71 0 tcl.c:571 jim_newtap_cmd(): Processing option: -ircapture
+Debug: 72 0 tcl.c:571 jim_newtap_cmd(): Processing option: -irmask
+Debug: 73 0 tcl.c:571 jim_newtap_cmd(): Processing option: -expected-id
+Debug: 74 0 core.c:1319 jtag_tap_init(): Created Tap: GBQ868.cpu @ abs position 0, irlen 4, capture: 0x1 mask: 0xf
+Debug: 75 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_target create GBQ868.cpu cortex_m -endian little -chain-position GBQ868.cpu
+Debug: 76 0 command.c:145 script_debug(): command - ocd_target ocd_target create GBQ868.cpu cortex_m -endian little -chain-position GBQ868.cpu
+Debug: 77 0 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 78 0 command.c:366 register_command_handler(): registering 'ocd_arm'...
+Debug: 79 0 command.c:366 register_command_handler(): registering 'ocd_arm'...
+Debug: 80 0 command.c:366 register_command_handler(): registering 'ocd_arm'...
+Debug: 81 0 command.c:366 register_command_handler(): registering 'ocd_arm'...
+Debug: 82 0 command.c:366 register_command_handler(): registering 'ocd_arm'...
+Debug: 83 0 command.c:366 register_command_handler(): registering 'ocd_arm'...
+Debug: 84 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 85 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 86 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 87 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 88 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 89 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 90 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 91 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 92 0 command.c:366 register_command_handler(): registering 'ocd_dap'...
+Debug: 93 0 command.c:366 register_command_handler(): registering 'ocd_cortex_m'...
+Debug: 94 0 command.c:366 register_command_handler(): registering 'ocd_cortex_m'...
+Debug: 95 0 command.c:366 register_command_handler(): registering 'ocd_cortex_m'...
+Debug: 96 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 97 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 98 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 99 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 100 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 101 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 102 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 103 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 104 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 105 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 106 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 107 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 108 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 109 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 110 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 111 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 112 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 113 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 114 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 115 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 116 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 117 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 118 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 119 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 120 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 121 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 122 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 123 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 124 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 125 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 126 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 127 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 128 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 129 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 130 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 131 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 132 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 133 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 134 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 135 0 command.c:366 register_command_handler(): registering 'ocd_GBQ868.cpu'...
+Debug: 136 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -work-area-phys 0x20000100 -work-area-size 0x1000 -work-area-backup 0
+Debug: 137 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -work-area-phys 0x20000100 -work-area-size 0x1000 -work-area-backup 0
+Debug: 138 0 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 139 0 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 140 0 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 141 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_flash bank GBQ868.flash0 gpcm1f 0x00000000 0x10000 0 0 GBQ868.cpu
+Debug: 142 0 command.c:145 script_debug(): command - ocd_flash ocd_flash bank GBQ868.flash0 gpcm1f 0x00000000 0x10000 0 0 GBQ868.cpu
+Debug: 144 0 command.c:366 register_command_handler(): registering 'ocd_gpcm1f'...
+Debug: 145 0 tcl.c:939 handle_flash_bank_command(): 'gpcm1f' driver usage field missing
+Debug: 146 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_flash bank GBQ868.flash1 gpcm3800_spifc 0x04000000 0 0 0 GBQ868.cpu 32 4
+Debug: 147 0 command.c:145 script_debug(): command - ocd_flash ocd_flash bank GBQ868.flash1 gpcm3800_spifc 0x04000000 0 0 0 GBQ868.cpu 32 4
+Info : 149 0 gpcm3800_spifc.c:113 gpcm3800_spifc_flash_bank_command(): spi_clk_div 0x00000020
+Info : 150 0 gpcm3800_spifc.c:115 gpcm3800_spifc_flash_bank_command(): spifc_clk_div 0x00000004
+Debug: 151 0 tcl.c:939 handle_flash_bank_command(): 'gpcm3800_spifc' driver usage field missing
+Debug: 152 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_adapter_khz 6000
+Debug: 153 0 command.c:145 script_debug(): command - adapter_khz ocd_adapter_khz 6000
+Debug: 155 0 core.c:1645 jtag_config_khz(): handle jtag khz
+Debug: 156 0 core.c:1612 adapter_khz_to_speed(): convert khz to interface specific speed value
+Debug: 157 0 core.c:1612 adapter_khz_to_speed(): convert khz to interface specific speed value
+User : 158 0 command.c:546 command_print(): adapter speed: 6000 kHz
+Debug: 159 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_reset_config connect_assert_srst
+Debug: 160 0 command.c:145 script_debug(): command - reset_config ocd_reset_config connect_assert_srst
+User : 162 0 command.c:546 command_print(): none separate
+Debug: 163 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_adapter_nsrst_delay 100
+Debug: 164 0 command.c:145 script_debug(): command - adapter_nsrst_delay ocd_adapter_nsrst_delay 100
+User : 166 0 command.c:546 command_print(): adapter_nsrst_delay: 100
+Debug: 167 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event examine-start  
+ poll off
+
+Debug: 168 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event examine-start  
+ poll off
+
+Debug: 169 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event examine-end  
+ poll on
+ halt
+ #poll on
+
+Debug: 170 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event examine-end  
+ poll on
+ halt
+ #poll on
+
+Debug: 171 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event gdb-attach  
+ cortex_m reset_config sysresetreq
+ #halt
+
+Debug: 172 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event gdb-attach  
+ cortex_m reset_config sysresetreq
+ #halt
+
+Debug: 173 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event gdb-detach  
+ shutdown
+
+Debug: 174 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event gdb-detach  
+ shutdown
+
+Debug: 175 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event gdb-flash-erase-start  
+
+
+Debug: 176 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event gdb-flash-erase-start  
+
+
+Debug: 177 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event gdb-flash-write-end  
+	global _DAP_FLAG
+	if { $_DAP_FLAG == 0 } {
+		#disable cache
+		mww 0x50000030 0x0
+		set _DAP_FLAG 1
+	}
+
+Debug: 178 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event gdb-flash-write-end  
+	global _DAP_FLAG
+	if { $_DAP_FLAG == 0 } {
+		#disable cache
+		mww 0x50000030 0x0
+		set _DAP_FLAG 1
+	}
+
+Debug: 179 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu configure -event reset-end  
+	
+	#Disable halt mode
+	mww 0x50005040 0x87
+	mww 0x50005040 0x9A
+	mmw 0x50005050 0x0 0x8
+	mww 0x50005040 0x00
+	
+	#Disable WDG
+	#mww 0x400D0000 0x55
+	#mww 0x400D0000 0x00
+
+Debug: 180 0 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu configure -event reset-end  
+	
+	#Disable halt mode
+	mww 0x50005040 0x87
+	mww 0x50005040 0x9A
+	mmw 0x50005050 0x0 0x8
+	mww 0x50005040 0x00
+	
+	#Disable WDG
+	#mww 0x400D0000 0x55
+	#mww 0x400D0000 0x00
+
+Debug: 181 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_adapter_khz 1000
+Debug: 182 0 command.c:145 script_debug(): command - adapter_khz ocd_adapter_khz 1000
+Debug: 184 0 core.c:1645 jtag_config_khz(): handle jtag khz
+Debug: 185 0 core.c:1612 adapter_khz_to_speed(): convert khz to interface specific speed value
+Debug: 186 0 core.c:1612 adapter_khz_to_speed(): convert khz to interface specific speed value
+User : 187 0 command.c:546 command_print(): adapter speed: 1000 kHz
+User : 188 0 command.c:691 command_run_line(): 1000User : 189 0 command.c:693 command_run_line(): 
+Debug: 190 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_gdb_port 3333
+Debug: 191 0 command.c:145 script_debug(): command - gdb_port ocd_gdb_port 3333
+Debug: 193 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_telnet_port 4444
+Debug: 194 0 command.c:145 script_debug(): command - telnet_port ocd_telnet_port 4444
+Debug: 196 0 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_cmsis_dap_path 6&35b1ffc9&1&000
+Debug: 197 0 command.c:145 script_debug(): command - cmsis_dap_path ocd_cmsis_dap_path 6&35b1ffc9&1&000
+Debug: 199 16 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_init
+Debug: 200 16 command.c:145 script_debug(): command - init ocd_init
+Debug: 202 16 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_target init
+Debug: 203 16 command.c:145 script_debug(): command - ocd_target ocd_target init
+Debug: 205 16 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_target names
+Debug: 206 16 command.c:145 script_debug(): command - ocd_target ocd_target names
+Debug: 207 16 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -event gdb-flash-erase-start
+Debug: 208 16 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -event gdb-flash-erase-start
+Debug: 209 16 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -event gdb-flash-write-end
+Debug: 210 16 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -event gdb-flash-write-end
+Debug: 211 16 target.c:1299 handle_target_init_command(): Initializing targets...
+Debug: 212 16 command.c:366 register_command_handler(): registering 'ocd_target_request'...
+Debug: 213 16 command.c:366 register_command_handler(): registering 'ocd_trace'...
+Debug: 214 16 command.c:366 register_command_handler(): registering 'ocd_trace'...
+Debug: 215 16 command.c:366 register_command_handler(): registering 'ocd_fast_load_image'...
+Debug: 216 16 command.c:366 register_command_handler(): registering 'ocd_fast_load'...
+Debug: 217 16 command.c:366 register_command_handler(): registering 'ocd_profile'...
+Debug: 218 16 command.c:366 register_command_handler(): registering 'ocd_virt2phys'...
+Debug: 219 16 command.c:366 register_command_handler(): registering 'ocd_reg'...
+Debug: 220 16 command.c:366 register_command_handler(): registering 'ocd_poll'...
+Debug: 221 16 command.c:366 register_command_handler(): registering 'ocd_poll_once'...
+Debug: 222 16 command.c:366 register_command_handler(): registering 'ocd_wait_halt'...
+Debug: 223 16 command.c:366 register_command_handler(): registering 'ocd_halt'...
+Debug: 224 16 command.c:366 register_command_handler(): registering 'ocd_resume'...
+Debug: 225 16 command.c:366 register_command_handler(): registering 'ocd_reset'...
+Debug: 226 16 command.c:366 register_command_handler(): registering 'ocd_soft_reset_halt'...
+Debug: 227 16 command.c:366 register_command_handler(): registering 'ocd_step'...
+Debug: 228 16 command.c:366 register_command_handler(): registering 'ocd_mdw'...
+Debug: 229 16 command.c:366 register_command_handler(): registering 'ocd_mdh'...
+Debug: 230 16 command.c:366 register_command_handler(): registering 'ocd_mdb'...
+Debug: 231 16 command.c:366 register_command_handler(): registering 'ocd_mww'...
+Debug: 232 16 command.c:366 register_command_handler(): registering 'ocd_mwh'...
+Debug: 233 16 command.c:366 register_command_handler(): registering 'ocd_mwb'...
+Debug: 234 16 command.c:366 register_command_handler(): registering 'ocd_bp'...
+Debug: 235 16 command.c:366 register_command_handler(): registering 'ocd_rbp'...
+Debug: 236 16 command.c:366 register_command_handler(): registering 'ocd_wp'...
+Debug: 237 16 command.c:366 register_command_handler(): registering 'ocd_rwp'...
+Debug: 238 16 command.c:366 register_command_handler(): registering 'ocd_load_image'...
+Debug: 239 16 command.c:366 register_command_handler(): registering 'ocd_test_load_image'...
+Debug: 240 16 command.c:366 register_command_handler(): registering 'ocd_dump_image'...
+Debug: 241 16 command.c:366 register_command_handler(): registering 'ocd_verify_image_checksum'...
+Debug: 242 16 command.c:366 register_command_handler(): registering 'ocd_verify_image'...
+Debug: 243 16 command.c:366 register_command_handler(): registering 'ocd_test_image'...
+Debug: 244 16 command.c:366 register_command_handler(): registering 'ocd_reset_nag'...
+Debug: 245 16 command.c:366 register_command_handler(): registering 'ocd_ps'...
+Debug: 246 16 command.c:366 register_command_handler(): registering 'ocd_test_mem_access'...
+Info : 247 31 cmsis_dap_usb.c:341 cmsis_dap_usb_open(): Open probe: 0x1b3f:0x6707
+Info : 248 31 cmsis_dap_usb.c:1175 cmsis_dap_get_caps_info(): CMSIS-DAP: SWD  Supported
+Info : 249 31 cmsis_dap_usb.c:1177 cmsis_dap_get_caps_info(): CMSIS-DAP: JTAG Supported
+Info : 250 31 cmsis_dap_usb.c:1490 cmsis_dap_swd_init(): CMSIS-DAP: Interface Initialised (SWD)
+Info : 251 31 cmsis_dap_usb.c:1155 cmsis_dap_get_version_info(): CMSIS-DAP: FW Version = 3.0.3.2
+Debug: 252 31 cmsis_dap_usb.c:1387 cmsis_dap_init(): CMSIS-DAP: Packet Size = 1024
+Debug: 253 31 cmsis_dap_usb.c:1398 cmsis_dap_init(): CMSIS-DAP: Packet Count = 4
+Debug: 254 31 cmsis_dap_usb.c:450 cmsis_dap_cmd_DAP_SWJ_Pins(): cmsis_dap_cmd_DAP_SWJ_Pins: pins 0x0, mask 0x0
+Info : 255 47 cmsis_dap_usb.c:1196 cmsis_dap_get_status(): SWCLK/TCK = 0 SWDIO/TMS = 0 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Debug: 256 63 cmsis_dap_usb.c:450 cmsis_dap_cmd_DAP_SWJ_Pins(): cmsis_dap_cmd_DAP_SWJ_Pins: pins 0x0, mask 0x80
+Info : 257 94 cmsis_dap_usb.c:1439 cmsis_dap_init(): Connecting under reset
+Debug: 258 94 cmsis_dap_usb.c:1206 cmsis_dap_reset_link(): CMSIS-DAP: cmsis_dap_reset_link
+Info : 259 94 cmsis_dap_usb.c:1207 cmsis_dap_reset_link(): DAP_SWJ Sequence (reset: 50+ '1' followed by 0)
+Debug: 260 94 cmsis_dap_usb.c:1299 cmsis_dap_reset_link(): DAP Write Abort
+Debug: 261 94 cmsis_dap_usb.c:1308 cmsis_dap_reset_link(): Result 0x00
+Info : 262 94 cmsis_dap_usb.c:1456 cmsis_dap_init(): CMSIS-DAP: Interface ready
+Debug: 263 94 core.c:1612 adapter_khz_to_speed(): convert khz to interface specific speed value
+Debug: 264 94 core.c:1615 adapter_khz_to_speed(): have interface set up
+Debug: 265 109 core.c:1612 adapter_khz_to_speed(): convert khz to interface specific speed value
+Debug: 266 109 core.c:1615 adapter_khz_to_speed(): have interface set up
+Info : 267 109 core.c:1401 adapter_init(): clock speed 1000 kHz
+Debug: 268 109 openocd.c:138 handle_init_command(): Debug Adapter init complete
+Debug: 269 109 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_transport init
+Debug: 270 109 command.c:145 script_debug(): command - ocd_transport ocd_transport init
+Debug: 272 109 transport.c:240 handle_transport_init(): handle_transport_init
+Debug: 273 109 adi_v5_cmsis_dap.c:316 cmsis_dap_init(): CMSIS-ADI: cmsis_dap_init
+Debug: 274 109 adi_v5_cmsis_dap.c:86 cmsis_dap_queue_idcode_read(): CMSIS-ADI: cmsis_dap_queue_idcode_read
+Debug: 275 109 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 0
+Info : 276 109 adi_v5_cmsis_dap.c:350 cmsis_dap_init(): IDCODE 0x0bb11477
+Debug: 277 109 adi_v5_cmsis_dap.c:60 cmsis_dap_queue_ap_abort(): CMSIS-ADI: cmsis_dap_queue_ap_abort
+Debug: 278 109 cmsis_dap_usb.c:450 cmsis_dap_cmd_DAP_SWJ_Pins(): cmsis_dap_cmd_DAP_SWJ_Pins: pins 0x80, mask 0x80
+Debug: 279 109 core.c:717 jtag_add_reset(): SRST line released
+Debug: 280 109 core.c:741 jtag_add_reset(): TRST line released
+Debug: 281 109 core.c:321 jtag_call_event_callbacks(): jtag event: TAP reset
+Debug: 282 109 openocd.c:151 handle_init_command(): Examining targets...
+Debug: 283 109 target.c:1415 target_call_event_callbacks(): target event 21 (examine-start)
+Debug: 284 109 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 21 (examine-start) action:  
+ poll off
+
+Debug: 285 109 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_poll off
+Debug: 286 109 command.c:145 script_debug(): command - poll ocd_poll off
+Debug: 288 109 arm_adi_v5.c:876 ahbap_debugport_init():  
+Debug: 289 109 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 290 109 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 4 0x50000000
+Debug: 291 109 adi_v5_cmsis_dap.c:104 cmsis_dap_queue_dp_write(): disabling overrun detection
+Debug: 292 109 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 293 109 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 294 109 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 295 109 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 4 0x50000001
+Debug: 296 109 adi_v5_cmsis_dap.c:104 cmsis_dap_queue_dp_write(): disabling overrun detection
+Debug: 297 109 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 298 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000020
+Debug: 299 125 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 300 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00000000
+Debug: 301 125 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 0
+Debug: 302 125 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 244
+Debug: 303 125 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x000000f0
+Debug: 304 125 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 305 125 arm_adi_v5.c:990 ahbap_debugport_init(): MEM_AP Packed Transfers: disabled
+Debug: 306 125 arm_adi_v5.c:1001 ahbap_debugport_init(): MEM_AP CFG: large data 0, long address 0, big-endian 0
+Debug: 307 125 cortex_m.c:653 cortex_m_halt(): target->state: unknown
+Warn : 308 125 cortex_m.c:661 cortex_m_halt(): target was in unknown state when halt was requested
+Debug: 309 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 310 125 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 311 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 312 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 313 125 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 314 125 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 315 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed00
+Debug: 316 125 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 317 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 318 125 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 319 125 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 320 125 target.c:2078 target_read_u32(): address: 0xe000ed00, value: 0x410cc200
+Debug: 321 125 cortex_m.c:2035 cortex_m_examine(): Cortex-M0 r0p0 processor detected
+Debug: 322 125 cortex_m.c:2043 cortex_m_examine(): cpuid: 0x410cc200
+Debug: 323 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002000
+Debug: 324 125 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 325 125 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 326 125 target.c:2078 target_read_u32(): address: 0xe0002000, value: 0x00000040
+Debug: 327 125 target.c:2166 target_write_u32(): address: 0xe0002008, value: 0x00000000
+Debug: 328 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002008
+Debug: 329 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 330 125 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 331 125 target.c:2166 target_write_u32(): address: 0xe000200c, value: 0x00000000
+Debug: 332 125 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000200c
+Debug: 333 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 334 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 335 141 target.c:2166 target_write_u32(): address: 0xe0002010, value: 0x00000000
+Debug: 336 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002010
+Debug: 337 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 338 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 339 141 target.c:2166 target_write_u32(): address: 0xe0002014, value: 0x00000000
+Debug: 340 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002014
+Debug: 341 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 342 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 343 141 cortex_m.c:2125 cortex_m_examine(): FPB fpcr 0x40, numcode 4, numlit 0
+Debug: 344 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001000
+Debug: 345 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 346 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 347 141 target.c:2078 target_read_u32(): address: 0xe0001000, value: 0x20000000
+Debug: 348 141 target.c:2166 target_write_u32(): address: 0xe0001028, value: 0x00000000
+Debug: 349 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001028
+Debug: 350 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 351 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 352 141 target.c:2166 target_write_u32(): address: 0xe0001038, value: 0x00000000
+Debug: 353 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001038
+Debug: 354 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 355 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 356 141 cortex_m.c:1980 cortex_m_dwt_setup(): DWT dwtcr 0x20000000, comp 2, watch/trigger
+Info : 357 141 cortex_m.c:2135 cortex_m_examine(): GBQ868.cpu: hardware has 4 breakpoints, 2 watchpoints
+Debug: 358 141 target.c:1415 target_call_event_callbacks(): target event 22 (examine-end)
+Debug: 359 141 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 22 (examine-end) action:  
+ poll on
+ halt
+ #poll on
+
+Debug: 360 141 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_poll on
+Debug: 361 141 command.c:145 script_debug(): command - poll ocd_poll on
+Debug: 363 141 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_halt
+Debug: 364 141 command.c:145 script_debug(): command - halt ocd_halt
+Debug: 365 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 366 141 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 367 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 368 141 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 369 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 370 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 371 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 373 141 target.c:2667 handle_halt_command(): -
+Debug: 374 141 cortex_m.c:653 cortex_m_halt(): target->state: halted
+Debug: 375 141 cortex_m.c:656 cortex_m_halt(): target was already halted
+Debug: 376 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 377 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 378 141 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_flash init
+Debug: 379 141 command.c:145 script_debug(): command - ocd_flash ocd_flash init
+Debug: 380 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 381 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 383 141 tcl.c:1005 handle_flash_init_command(): Initializing flash devices...
+Debug: 384 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 385 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 386 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 387 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 388 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 389 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 390 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 391 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 392 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 393 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 394 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 395 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 396 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 397 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 398 141 command.c:366 register_command_handler(): registering 'ocd_flash'...
+Debug: 399 141 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mflash init
+Debug: 400 141 command.c:145 script_debug(): command - ocd_mflash ocd_mflash init
+Debug: 401 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 402 141 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 404 141 mflash.c:1379 handle_mflash_init_command(): Initializing mflash devices...
+Debug: 405 141 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_nand init
+Debug: 406 141 command.c:145 script_debug(): command - ocd_nand ocd_nand init
+Debug: 407 141 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 408 156 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 410 156 tcl.c:497 handle_nand_init_command(): Initializing NAND devices...
+Debug: 411 156 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_pld init
+Debug: 412 156 command.c:145 script_debug(): command - ocd_pld ocd_pld init
+Debug: 413 156 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 414 156 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 416 156 pld.c:207 handle_pld_init_command(): Initializing PLDs...
+Debug: 417 266 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 418 266 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 419 375 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 420 375 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 421 484 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 422 484 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 423 594 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 424 594 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 425 703 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 426 703 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Info : 427 760 server.c:92 add_connection(): accepting 'terminal' connection from 2333
+Debug: 428 867 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 429 868 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 430 976 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 431 976 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 432 1087 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 433 1087 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 434 1197 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 435 1197 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 436 1311 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 437 1311 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 438 1420 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 439 1420 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 440 1529 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 441 1529 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Info : 442 1576 server.c:92 add_connection(): accepting 'gdb' connection from 3333
+Debug: 443 1576 breakpoints.c:359 breakpoint_clear_target_internal(): Delete all breakpoints for target: GBQ868.cpu
+Debug: 444 1576 breakpoints.c:516 watchpoint_clear_target(): Delete all watchpoints for target: GBQ868.cpu
+Debug: 445 1576 target.c:1415 target_call_event_callbacks(): target event 23 (gdb-attach)
+Debug: 446 1576 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 23 (gdb-attach) action:  
+ cortex_m reset_config sysresetreq
+ #halt
+
+Debug: 447 1576 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_cortex_m reset_config sysresetreq
+Debug: 448 1576 command.c:145 script_debug(): command - ocd_cortex_m ocd_cortex_m reset_config sysresetreq
+Debug: 449 1576 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 450 1576 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+User : 452 1576 command.c:546 command_print(): cortex_m reset_config sysresetreq
+Debug: 453 1576 gpcm1f.c:470 gpcm1f_flash_probe(): Valid SPIFI on device gpcm1fxx at address 0x0
+Info : 454 1576 gpcm1f.c:486 gpcm1f_flash_probe(): Found flash device 'GPCM1F          ' (ID 0x4750434d)
+Info : 455 1576 gpcm3800_spifc.c:898 gpcm3800_spifc_flash_probe(): Allocating working area for GPCM3800 spifc_JILL_probe algorithm
+Debug: 456 1576 target.c:1586 target_alloc_working_area_try(): MMU disabled, using physical address for working memory 0x20000100
+Debug: 457 1576 target.c:1639 target_alloc_working_area_try(): allocated new working area of 1224 bytes at address 0x20000100
+Debug: 458 1576 target.c:1502 print_wa_layout():  * 0x20000100-0x200005c7 (1224 bytes)
+Debug: 459 1576 target.c:1502 print_wa_layout():    0x200005c8-0x200010ff (2872 bytes)
+Info : 460 1576 gpcm3800_spifc.c:912 gpcm3800_spifc_flash_probe(): Writing probe algorithm to working area at 0x20000100
+Debug: 461 1576 target.c:1869 target_write_buffer(): writing buffer of 1224 byte at 0x20000100
+Debug: 462 1576 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x20000100
+Debug: 463 1576 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 464 1576 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 465 1576 adi_v5_cmsis_dap.c:211 cmsis_dap_queue_ap_write_block(): CMSIS-ADI: cmsis_dap_queue_ap_write_block 0x00000300
+Debug: 466 1592 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x20000400
+Debug: 467 1592 adi_v5_cmsis_dap.c:211 cmsis_dap_queue_ap_write_block(): CMSIS-ADI: cmsis_dap_queue_ap_write_block 0x000001c8
+Debug: 468 1592 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Info : 469 1592 gpcm3800_spifc.c:935 gpcm3800_spifc_flash_probe(): probe spi clk [00000020]
+Info : 470 1592 gpcm3800_spifc.c:937 gpcm3800_spifc_flash_probe(): Running GPCM3800 probe algorithm
+Debug: 471 1592 target.c:1415 target_call_event_callbacks(): target event 3 (resume-start)
+Debug: 472 1592 armv7m.c:209 armv7m_restore_context():  
+Debug: 473 1592 armv7m.c:341 armv7m_write_core_reg(): write core reg 19 value 0x1
+Debug: 474 1592 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 475 1592 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 476 1592 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 477 1592 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 478 1592 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 479 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 480 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x00000001
+Debug: 481 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00010014
+Debug: 482 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 483 1607 cortex_m.c:1733 cortex_m_store_core_reg_u32(): write special reg 19 value 0x1 
+Debug: 484 1607 armv7m.c:341 armv7m_write_core_reg(): write core reg 16 value 0x1000000
+Debug: 485 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x01000000
+Debug: 486 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00010010
+Debug: 487 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 488 1607 cortex_m.c:1666 cortex_m_store_core_reg_u32(): write core reg 16 value 0x1000000
+Debug: 489 1607 armv7m.c:341 armv7m_write_core_reg(): write core reg 15 value 0x20000100
+Debug: 490 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x20000100
+Debug: 491 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0001000f
+Debug: 492 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 493 1607 cortex_m.c:1666 cortex_m_store_core_reg_u32(): write core reg 15 value 0x20000100
+Debug: 494 1607 armv7m.c:341 armv7m_write_core_reg(): write core reg 0 value 0x20
+Debug: 495 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x00000020
+Debug: 496 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00010000
+Debug: 497 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 498 1607 cortex_m.c:1666 cortex_m_store_core_reg_u32(): write core reg 0 value 0x20
+Debug: 499 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0001
+Debug: 500 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 501 1607 target.c:1415 target_call_event_callbacks(): target event 20 (debug-resumed)
+Debug: 502 1607 cortex_m.c:847 cortex_m_resume(): target debug resumed at 0x20000100
+Debug: 503 1607 target.c:1415 target_call_event_callbacks(): target event 4 (resume-end)
+Debug: 504 1607 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 505 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 506 1607 cortex_m.c:623 cortex_m_poll():  
+Debug: 507 1607 cortex_m.c:455 cortex_m_debug_entry():  
+Debug: 508 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 509 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 510 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed30
+Debug: 511 1607 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 512 1607 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 513 1607 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 514 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 515 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0x00000003
+Debug: 516 1607 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 517 1607 cortex_m.c:203 cortex_m_clear_halt():  NVIC_DFSR 0x3
+Debug: 518 1607 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 519 1607 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 520 1607 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 521 1607 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 522 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 523 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000000
+Debug: 524 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 525 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 526 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 0  value 0x18
+Debug: 527 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000001
+Debug: 528 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 529 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 530 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 1  value 0x1
+Debug: 531 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000002
+Debug: 532 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 533 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 534 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 2  value 0x1
+Debug: 535 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000003
+Debug: 536 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 537 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 538 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 3  value 0x50060000
+Debug: 539 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000004
+Debug: 540 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 541 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 542 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 4  value 0x18
+Debug: 543 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000005
+Debug: 544 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 545 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 546 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 5  value 0x0
+Debug: 547 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000006
+Debug: 548 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 549 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 550 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 6  value 0x0
+Debug: 551 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000007
+Debug: 552 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 553 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 554 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 7  value 0x46
+Debug: 555 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000008
+Debug: 556 1623 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 557 1623 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 558 1623 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 8  value 0x40
+Debug: 559 1623 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000009
+Debug: 560 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 561 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 562 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 9  value 0xffffffff
+Debug: 563 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000a
+Debug: 564 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 565 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 566 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 10  value 0xffffffff
+Debug: 567 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000b
+Debug: 568 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 569 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 570 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 11  value 0xffffffff
+Debug: 571 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000c
+Debug: 572 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 573 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 574 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 12  value 0xffffffff
+Debug: 575 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000d
+Debug: 576 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 577 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 578 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 13  value 0x20004000
+Debug: 579 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000e
+Debug: 580 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 581 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 582 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 14  value 0xffffffff
+Debug: 583 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000f
+Debug: 584 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 585 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 586 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 15  value 0x20000562
+Debug: 587 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000010
+Debug: 588 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 589 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 590 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 16  value 0x21000000
+Debug: 591 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000011
+Debug: 592 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 593 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 594 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 17  value 0x20004000
+Debug: 595 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000012
+Debug: 596 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 597 1639 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 598 1639 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 18  value 0xfffffffc
+Debug: 599 1639 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 600 1639 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 601 1654 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 602 1654 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 19 value 0x1
+Debug: 603 1654 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 604 1654 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 605 1654 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 606 1654 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 20 value 0x0
+Debug: 607 1654 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 608 1654 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 609 1654 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 610 1654 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 21 value 0x0
+Debug: 611 1654 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 612 1654 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 613 1654 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 614 1654 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 22 value 0x0
+Debug: 615 1654 cortex_m.c:515 cortex_m_debug_entry(): entered debug state in core mode: Thread at PC 0x20000562, target->state: halted
+Debug: 616 1654 target.c:1415 target_call_event_callbacks(): target event 19 (debug-halted)
+Debug: 617 1654 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000f
+Debug: 618 1654 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 619 1654 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 620 1654 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 15  value 0x20000562
+Debug: 621 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register primask with value 0x00000000
+Debug: 622 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register psp with value 0x00000000
+Debug: 623 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register msp with value 0x00000000
+Debug: 624 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register xPSR with value 0x00000000
+Debug: 625 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register pc with value 0x00000000
+Debug: 626 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register lr with value 0x00000000
+Debug: 627 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register sp with value 0x00000000
+Debug: 628 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r12 with value 0x00000000
+Debug: 629 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r11 with value 0x00000000
+Debug: 630 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r10 with value 0x00000000
+Debug: 631 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r9 with value 0x00000000
+Debug: 632 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r8 with value 0x00000000
+Debug: 633 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r7 with value 0x00000000
+Debug: 634 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r4 with value 0x00000000
+Debug: 635 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r3 with value 0x00000000
+Debug: 636 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r2 with value 0x00000000
+Debug: 637 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r1 with value 0x00000000
+Debug: 638 1654 armv7m.c:575 armv7m_wait_algorithm(): restoring register r0 with value 0x00000000
+Debug: 639 1654 target.c:1708 target_free_working_area_restore(): freed 1224 bytes of working area at address 0x20000100
+Debug: 640 1654 target.c:1502 print_wa_layout():    0x20000100-0x200010ff (4096 bytes)
+Info : 641 1654 gpcm3800_spifc.c:961 gpcm3800_spifc_flash_probe(): Found Similar flash device 'GPR 25L12805' (ID 0x001820c2)
+Debug: 642 1654 gdb_server.c:1008 gdb_new_connection(): New GDB Connection: 1, Target GBQ868.cpu, state: halted
+Debug: 643 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qSupported:multiprocess+;qRelocInsn+'
+Debug: 644 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'QStartNoAckMode'
+Debug: 645 1654 gdb_server.c:634 gdb_get_packet_inner(): Received first acknowledgment after entering noack mode. Ignoring it.
+Debug: 646 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'Hg0'
+Debug: 647 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qXfer:features:read:target.xml:0,fff'
+Debug: 648 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qTStatus'
+Debug: 649 1654 gdb_server.c:2836 gdb_input_inner(): received packet: '?'
+Debug: 650 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qXfer:threads:read::0,fff'
+Debug: 651 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'Hc-1'
+Debug: 652 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qC'
+Debug: 653 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qAttached'
+Debug: 654 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qOffsets'
+Debug: 655 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'g'
+Debug: 656 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qXfer:memory-map:read::0,fff'
+Debug: 657 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'm0,4'
+Debug: 658 1654 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00000000, len: 0x00000004
+Debug: 659 1654 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x00000000
+Debug: 660 1654 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00000000
+Debug: 661 1654 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 662 1654 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 663 1654 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 664 1654 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 665 1654 gdb_server.c:2836 gdb_input_inner(): received packet: 'qSymbol::'
+Debug: 666 1701 gdb_server.c:2836 gdb_input_inner(): received packet: 'm50000004,4'
+Debug: 667 1701 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x50000004, len: 0x00000004
+Debug: 668 1701 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x50000004
+Debug: 669 1701 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50000004
+Debug: 670 1701 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 671 1701 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 672 1701 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 673 1701 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 674 1701 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 675 1701 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 676 1701 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 677 1810 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 678 1810 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 679 1857 gdb_server.c:2836 gdb_input_inner(): received packet: 'qRcmd,636d7369732d646170206172705f696e6974'
+Debug: 680 1857 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 681 1857 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 682 1857 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_cmsis-dap arp_init
+Debug: 683 1857 command.c:145 script_debug(): command - ocd_cmsis-dap ocd_cmsis-dap arp_init
+Debug: 684 1857 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 685 1857 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 687 1857 cmsis_dap_usb.c:450 cmsis_dap_cmd_DAP_SWJ_Pins(): cmsis_dap_cmd_DAP_SWJ_Pins: pins 0x0, mask 0x80
+Debug: 688 1889 cmsis_dap_usb.c:1206 cmsis_dap_reset_link(): CMSIS-DAP: cmsis_dap_reset_link
+Info : 689 1889 cmsis_dap_usb.c:1207 cmsis_dap_reset_link(): DAP_SWJ Sequence (reset: 50+ '1' followed by 0)
+Debug: 690 1889 cmsis_dap_usb.c:1299 cmsis_dap_reset_link(): DAP Write Abort
+Debug: 691 1889 cmsis_dap_usb.c:1308 cmsis_dap_reset_link(): Result 0x00
+Debug: 692 1889 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 693 1889 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 694 1889 gdb_server.c:2836 gdb_input_inner(): received packet: 'qRcmd,72657365742068616c74'
+Debug: 695 1889 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 696 1889 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 697 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_reset halt
+Debug: 698 1889 command.c:145 script_debug(): command - reset ocd_reset halt
+Debug: 699 1889 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 700 1889 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 702 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_target names
+Debug: 703 1889 command.c:145 script_debug(): command - ocd_target ocd_target names
+Debug: 704 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-start
+Debug: 705 1889 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-start
+Debug: 706 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag arp_init-reset
+Debug: 707 1889 command.c:145 script_debug(): command - ocd_jtag ocd_jtag arp_init-reset
+Debug: 709 1889 cmsis_dap_usb.c:1729 cmsis_dap_reset_command(): cmsis_dap_reset_command
+Debug: 710 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 711 1889 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 712 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 713 1889 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 714 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event examine-start
+Debug: 715 1889 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event examine-start
+Debug: 716 1889 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 21 (examine-start) action:  
+ poll off
+
+Debug: 717 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_poll off
+Debug: 718 1889 command.c:145 script_debug(): command - poll ocd_poll off
+Debug: 720 1889 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_examine
+Debug: 721 1889 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_examine
+Debug: 722 1889 arm_adi_v5.c:876 ahbap_debugport_init():  
+Debug: 723 1889 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 724 1889 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 4 0x50000000
+Debug: 725 1889 adi_v5_cmsis_dap.c:104 cmsis_dap_queue_dp_write(): disabling overrun detection
+Debug: 726 1889 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 727 1889 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 728 1889 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 729 1889 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 4 0x50000001
+Debug: 730 1889 adi_v5_cmsis_dap.c:104 cmsis_dap_queue_dp_write(): disabling overrun detection
+Debug: 731 1889 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 732 1889 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000020
+Debug: 733 1889 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 734 1889 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00000000
+Debug: 735 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 0
+Debug: 736 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 244
+Debug: 737 1904 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x000000f0
+Debug: 738 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 739 1904 arm_adi_v5.c:990 ahbap_debugport_init(): MEM_AP Packed Transfers: disabled
+Debug: 740 1904 arm_adi_v5.c:1001 ahbap_debugport_init(): MEM_AP CFG: large data 0, long address 0, big-endian 0
+Debug: 741 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event examine-end
+Debug: 742 1904 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event examine-end
+Debug: 743 1904 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 22 (examine-end) action:  
+ poll on
+ halt
+ #poll on
+
+Debug: 744 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_poll on
+Debug: 745 1904 command.c:145 script_debug(): command - poll ocd_poll on
+Debug: 747 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_halt
+Debug: 748 1904 command.c:145 script_debug(): command - halt ocd_halt
+Debug: 749 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 750 1904 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 751 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 752 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 753 1904 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 754 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 755 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 756 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 758 1904 target.c:2667 handle_halt_command(): -
+Debug: 759 1904 cortex_m.c:653 cortex_m_halt(): target->state: halted
+Debug: 760 1904 cortex_m.c:656 cortex_m_halt(): target was already halted
+Debug: 761 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 762 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 763 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-assert-pre
+Debug: 764 1904 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-assert-pre
+Debug: 765 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 766 1904 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 767 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 768 1904 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 769 1904 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_reset assert 1
+Debug: 770 1904 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_reset assert 1
+Debug: 771 1904 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 772 1904 target.c:1502 print_wa_layout():    0x20000100-0x200010ff (4096 bytes)
+Debug: 773 1904 cortex_m.c:1036 cortex_m_assert_reset(): target->state: halted
+Debug: 774 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 775 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 776 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0001
+Debug: 777 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x00000000
+Debug: 778 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 28 0x01000501
+Debug: 779 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 780 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed00
+Debug: 781 1904 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 782 1904 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 28 0x05fa0004
+Debug: 783 1904 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 784 1904 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 785 1904 cortex_m.c:1128 cortex_m_assert_reset(): Using Cortex-M SYSRESETREQ
+Debug: 786 1904 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 28
+Debug: 787 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 788 1920 cortex_m.c:653 cortex_m_halt(): target->state: reset
+Debug: 789 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-assert-post
+Debug: 790 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-assert-post
+Debug: 791 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-deassert-pre
+Debug: 792 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-deassert-pre
+Debug: 793 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 794 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 795 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 796 1920 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 797 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_reset deassert 1
+Debug: 798 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_reset deassert 1
+Debug: 799 1920 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 800 1920 target.c:1502 print_wa_layout():    0x20000100-0x200010ff (4096 bytes)
+Debug: 801 1920 cortex_m.c:1164 cortex_m_deassert_reset(): target->state: reset
+Debug: 802 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-deassert-post
+Debug: 803 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-deassert-post
+Debug: 804 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 805 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 806 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 807 1920 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 808 1920 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_waitstate halted 1000
+Debug: 809 1920 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_waitstate halted 1000
+Debug: 810 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 811 1920 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 812 1920 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 813 1920 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 814 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 815 1920 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 816 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 817 1920 cortex_m.c:599 cortex_m_poll(): Exit from reset with dcb_dhcsr 0x30003
+Debug: 818 1920 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 28
+Debug: 819 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 820 1920 cortex_m.c:274 cortex_m_endreset_event(): DCB_DEMCR = 0x01000401
+Debug: 821 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x00000000
+Debug: 822 1920 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 823 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 824 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 825 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 826 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 28 0x01000000
+Debug: 827 1920 target.c:2166 target_write_u32(): address: 0xe0002000, value: 0x00000003
+Debug: 828 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002000
+Debug: 829 1920 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 830 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 831 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000003
+Debug: 832 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 833 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002000
+Debug: 834 1920 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 835 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 836 1920 target.c:2078 target_read_u32(): address: 0xe0002000, value: 0x00000041
+Debug: 837 1920 target.c:2166 target_write_u32(): address: 0xe0002008, value: 0x00000000
+Debug: 838 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002008
+Debug: 839 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 840 1920 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 841 1920 target.c:2166 target_write_u32(): address: 0xe000200c, value: 0x00000000
+Debug: 842 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000200c
+Debug: 843 1920 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 844 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 845 1935 target.c:2166 target_write_u32(): address: 0xe0002010, value: 0x00000000
+Debug: 846 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002010
+Debug: 847 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 848 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 849 1935 target.c:2166 target_write_u32(): address: 0xe0002014, value: 0x00000000
+Debug: 850 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002014
+Debug: 851 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 852 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 853 1935 target.c:2166 target_write_u32(): address: 0xe0001020, value: 0x00000000
+Debug: 854 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001020
+Debug: 855 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 856 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 857 1935 target.c:2166 target_write_u32(): address: 0xe0001024, value: 0x00000000
+Debug: 858 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001024
+Debug: 859 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 860 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 861 1935 target.c:2166 target_write_u32(): address: 0xe0001028, value: 0x00000000
+Debug: 862 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001028
+Debug: 863 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 864 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 865 1935 target.c:2166 target_write_u32(): address: 0xe0001030, value: 0x00000000
+Debug: 866 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001030
+Debug: 867 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 868 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 869 1935 target.c:2166 target_write_u32(): address: 0xe0001034, value: 0x00000000
+Debug: 870 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001034
+Debug: 871 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 872 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 873 1935 target.c:2166 target_write_u32(): address: 0xe0001038, value: 0x00000000
+Debug: 874 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001038
+Debug: 875 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 876 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 877 1935 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 878 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 879 1935 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 880 1935 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 881 1935 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 882 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 883 1951 cortex_m.c:455 cortex_m_debug_entry():  
+Debug: 884 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 885 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 886 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed30
+Debug: 887 1951 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 888 1951 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 889 1951 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 890 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 891 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0x00000009
+Debug: 892 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 893 1951 cortex_m.c:203 cortex_m_clear_halt():  NVIC_DFSR 0x9
+Debug: 894 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 895 1951 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 896 1951 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 897 1951 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 898 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 899 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000000
+Debug: 900 1951 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 901 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 902 1951 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 0  value 0xffffffff
+Debug: 903 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000001
+Debug: 904 1951 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 905 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 906 1951 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 1  value 0xffffffff
+Debug: 907 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000002
+Debug: 908 1951 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 909 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 910 1951 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 2  value 0xffffffff
+Debug: 911 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000003
+Debug: 912 1951 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 913 1951 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 914 1951 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 3  value 0xffffffff
+Debug: 915 1951 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000004
+Debug: 916 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 917 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 918 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 4  value 0xffffffff
+Debug: 919 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000005
+Debug: 920 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 921 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 922 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 5  value 0xffffffff
+Debug: 923 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000006
+Debug: 924 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 925 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 926 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 6  value 0xffffffff
+Debug: 927 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000007
+Debug: 928 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 929 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 930 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 7  value 0xffffffff
+Debug: 931 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000008
+Debug: 932 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 933 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 934 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 8  value 0xffffffff
+Debug: 935 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000009
+Debug: 936 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 937 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 938 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 9  value 0xffffffff
+Debug: 939 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000a
+Debug: 940 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 941 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 942 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 10  value 0xffffffff
+Debug: 943 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000b
+Debug: 944 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 945 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 946 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 11  value 0xffffffff
+Debug: 947 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000c
+Debug: 948 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 949 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 950 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 12  value 0xffffffff
+Debug: 951 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000d
+Debug: 952 1967 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 953 1967 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 954 1967 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 13  value 0x20004000
+Debug: 955 1967 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000e
+Debug: 956 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 957 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 958 1982 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 14  value 0xffffffff
+Debug: 959 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000f
+Debug: 960 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 961 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 962 1982 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 15  value 0x1af4
+Debug: 963 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000010
+Debug: 964 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 965 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 966 1982 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 16  value 0xc1000000
+Debug: 967 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000011
+Debug: 968 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 969 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 970 1982 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 17  value 0x20004000
+Debug: 971 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000012
+Debug: 972 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 973 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 974 1982 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 18  value 0xfffffffc
+Debug: 975 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 976 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 977 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 978 1982 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 19 value 0x0
+Debug: 979 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 980 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 981 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 982 1982 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 20 value 0x0
+Debug: 983 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 984 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 985 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 986 1982 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 21 value 0x0
+Debug: 987 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 988 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 989 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 990 1982 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 22 value 0x0
+Debug: 991 1982 cortex_m.c:515 cortex_m_debug_entry(): entered debug state in core mode: Thread at PC 0x1af4, target->state: halted
+Debug: 992 1982 target.c:1415 target_call_event_callbacks(): target event 0 (gdb-halt)
+Debug: 993 1982 target.c:1415 target_call_event_callbacks(): target event 1 (halted)
+User : 994 1982 target.c:1788 target_arch_state(): target state: halted
+User : 995 1982 armv7m.c:616 armv7m_arch_state(): target halted due to debug-request, current mode: Thread 
+xPSR: 0xc1000000 pc: 0x00001af4 msp: 0x20004000
+Debug: 996 1982 target.c:1415 target_call_event_callbacks(): target event 6 (gdb-end)
+Debug: 997 1982 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu curstate
+Debug: 998 1982 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu curstate
+Debug: 999 1982 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-end
+Debug: 1000 1982 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-end
+Debug: 1001 1982 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 18 (reset-end) action:  
+	
+	#Disable halt mode
+	mww 0x50005040 0x87
+	mww 0x50005040 0x9A
+	mmw 0x50005050 0x0 0x8
+	mww 0x50005040 0x00
+	
+	#Disable WDG
+	#mww 0x400D0000 0x55
+	#mww 0x400D0000 0x00
+
+Debug: 1002 1982 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005040 0x87
+Debug: 1003 1982 command.c:145 script_debug(): command - mww ocd_mww 0x50005040 0x87
+Debug: 1004 1982 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1005 1982 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1007 1982 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005040
+Debug: 1008 1982 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1009 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1010 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000087
+Debug: 1011 1998 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1012 1998 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005040 0x9A
+Debug: 1013 1998 command.c:145 script_debug(): command - mww ocd_mww 0x50005040 0x9A
+Debug: 1014 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1015 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1016 1998 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1017 1998 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1018 1998 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1020 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005040
+Debug: 1021 1998 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1022 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1023 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x0000009a
+Debug: 1024 1998 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1025 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005050
+Debug: 1026 1998 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1027 1998 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1028 1998 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005050 23
+Debug: 1029 1998 command.c:145 script_debug(): command - mww ocd_mww 0x50005050 23
+Debug: 1030 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1031 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1032 1998 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1033 1998 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1034 1998 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1036 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005050
+Debug: 1037 1998 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1038 1998 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1039 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000017
+Debug: 1040 2014 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1041 2014 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005040 0x00
+Debug: 1042 2014 command.c:145 script_debug(): command - mww ocd_mww 0x50005040 0x00
+Debug: 1043 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1044 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1045 2014 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1046 2014 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1047 2014 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1049 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005040
+Debug: 1050 2014 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1051 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1052 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1053 2014 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1054 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1055 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1056 2014 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1057 2014 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1058 2014 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1059 2014 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1060 2014 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1061 2014 gdb_server.c:2836 gdb_input_inner(): received packet: 'g'
+Debug: 1062 2014 gdb_server.c:2836 gdb_input_inner(): received packet: 'm1af4,4'
+Debug: 1063 2014 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00001af4, len: 0x00000004
+Debug: 1064 2014 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x00001af4
+Debug: 1065 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00001af4
+Debug: 1066 2014 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1067 2014 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1068 2014 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1069 2014 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1070 2076 gdb_server.c:2836 gdb_input_inner(): received packet: 'qRcmd,636d7369732d646170206172705f696e6974'
+Debug: 1071 2076 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1072 2076 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1073 2076 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1074 2076 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1075 2076 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1076 2076 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_cmsis-dap arp_init
+Debug: 1077 2076 command.c:145 script_debug(): command - ocd_cmsis-dap ocd_cmsis-dap arp_init
+Debug: 1078 2076 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1079 2076 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1081 2076 cmsis_dap_usb.c:450 cmsis_dap_cmd_DAP_SWJ_Pins(): cmsis_dap_cmd_DAP_SWJ_Pins: pins 0x0, mask 0x80
+Debug: 1082 2107 cmsis_dap_usb.c:1206 cmsis_dap_reset_link(): CMSIS-DAP: cmsis_dap_reset_link
+Info : 1083 2107 cmsis_dap_usb.c:1207 cmsis_dap_reset_link(): DAP_SWJ Sequence (reset: 50+ '1' followed by 0)
+Debug: 1084 2107 cmsis_dap_usb.c:1299 cmsis_dap_reset_link(): DAP Write Abort
+Debug: 1085 2107 cmsis_dap_usb.c:1308 cmsis_dap_reset_link(): Result 0x00
+Debug: 1086 2107 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1087 2107 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1088 2107 gdb_server.c:2836 gdb_input_inner(): received packet: 'qRcmd,72657365742068616c74'
+Debug: 1089 2107 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1090 2107 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1091 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_reset halt
+Debug: 1092 2107 command.c:145 script_debug(): command - reset ocd_reset halt
+Debug: 1093 2107 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1094 2107 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1096 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_target names
+Debug: 1097 2107 command.c:145 script_debug(): command - ocd_target ocd_target names
+Debug: 1098 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-start
+Debug: 1099 2107 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-start
+Debug: 1100 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag arp_init-reset
+Debug: 1101 2107 command.c:145 script_debug(): command - ocd_jtag ocd_jtag arp_init-reset
+Debug: 1103 2107 cmsis_dap_usb.c:1729 cmsis_dap_reset_command(): cmsis_dap_reset_command
+Debug: 1104 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 1105 2107 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 1106 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1107 2107 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1108 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event examine-start
+Debug: 1109 2107 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event examine-start
+Debug: 1110 2107 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 21 (examine-start) action:  
+ poll off
+
+Debug: 1111 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_poll off
+Debug: 1112 2107 command.c:145 script_debug(): command - poll ocd_poll off
+Debug: 1114 2107 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_examine
+Debug: 1115 2107 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_examine
+Debug: 1116 2107 arm_adi_v5.c:876 ahbap_debugport_init():  
+Debug: 1117 2107 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 1118 2107 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 4 0x50000000
+Debug: 1119 2107 adi_v5_cmsis_dap.c:104 cmsis_dap_queue_dp_write(): disabling overrun detection
+Debug: 1120 2107 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 1121 2107 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1122 2107 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 1123 2107 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 4 0x50000001
+Debug: 1124 2107 adi_v5_cmsis_dap.c:104 cmsis_dap_queue_dp_write(): disabling overrun detection
+Debug: 1125 2107 adi_v5_cmsis_dap.c:70 cmsis_dap_queue_dp_read(): CMSIS-ADI: cmsis_dap_queue_dp_read 4
+Debug: 1126 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000020
+Debug: 1127 2123 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1128 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00000000
+Debug: 1129 2123 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 0
+Debug: 1130 2123 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 244
+Debug: 1131 2123 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x000000f0
+Debug: 1132 2123 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1133 2123 arm_adi_v5.c:990 ahbap_debugport_init(): MEM_AP Packed Transfers: disabled
+Debug: 1134 2123 arm_adi_v5.c:1001 ahbap_debugport_init(): MEM_AP CFG: large data 0, long address 0, big-endian 0
+Debug: 1135 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event examine-end
+Debug: 1136 2123 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event examine-end
+Debug: 1137 2123 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 22 (examine-end) action:  
+ poll on
+ halt
+ #poll on
+
+Debug: 1138 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_poll on
+Debug: 1139 2123 command.c:145 script_debug(): command - poll ocd_poll on
+Debug: 1141 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_halt
+Debug: 1142 2123 command.c:145 script_debug(): command - halt ocd_halt
+Debug: 1143 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1144 2123 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1145 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1146 2123 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1147 2123 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1148 2123 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1149 2123 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1150 2123 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1152 2123 target.c:2667 handle_halt_command(): -
+Debug: 1153 2123 cortex_m.c:653 cortex_m_halt(): target->state: halted
+Debug: 1154 2123 cortex_m.c:656 cortex_m_halt(): target was already halted
+Debug: 1155 2123 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1156 2123 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1157 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-assert-pre
+Debug: 1158 2123 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-assert-pre
+Debug: 1159 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 1160 2123 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 1161 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1162 2123 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1163 2123 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_reset assert 1
+Debug: 1164 2123 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_reset assert 1
+Debug: 1165 2123 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 1166 2123 target.c:1502 print_wa_layout():    0x20000100-0x200010ff (4096 bytes)
+Debug: 1167 2123 cortex_m.c:1036 cortex_m_assert_reset(): target->state: halted
+Debug: 1168 2123 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1169 2123 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1170 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0001
+Debug: 1171 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x00000000
+Debug: 1172 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 28 0x01000501
+Debug: 1173 2123 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1174 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed00
+Debug: 1175 2123 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1176 2123 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 28 0x05fa0004
+Debug: 1177 2123 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1178 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1179 2139 cortex_m.c:1128 cortex_m_assert_reset(): Using Cortex-M SYSRESETREQ
+Debug: 1180 2139 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 28
+Debug: 1181 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1182 2139 cortex_m.c:653 cortex_m_halt(): target->state: reset
+Debug: 1183 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-assert-post
+Debug: 1184 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-assert-post
+Debug: 1185 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-deassert-pre
+Debug: 1186 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-deassert-pre
+Debug: 1187 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 1188 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 1189 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1190 2139 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1191 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_reset deassert 1
+Debug: 1192 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_reset deassert 1
+Debug: 1193 2139 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 1194 2139 target.c:1502 print_wa_layout():    0x20000100-0x200010ff (4096 bytes)
+Debug: 1195 2139 cortex_m.c:1164 cortex_m_deassert_reset(): target->state: reset
+Debug: 1196 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-deassert-post
+Debug: 1197 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-deassert-post
+Debug: 1198 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu cget -chain-position
+Debug: 1199 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu cget -chain-position
+Debug: 1200 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1201 2139 command.c:145 script_debug(): command - ocd_jtag ocd_jtag tapisenabled GBQ868.cpu
+Debug: 1202 2139 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu arp_waitstate halted 1000
+Debug: 1203 2139 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu arp_waitstate halted 1000
+Debug: 1204 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1205 2139 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1206 2139 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1207 2139 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1208 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1209 2139 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1210 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1211 2139 cortex_m.c:599 cortex_m_poll(): Exit from reset with dcb_dhcsr 0x30003
+Debug: 1212 2139 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 28
+Debug: 1213 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1214 2139 cortex_m.c:274 cortex_m_endreset_event(): DCB_DEMCR = 0x01000401
+Debug: 1215 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 24 0x00000000
+Debug: 1216 2139 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1217 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1218 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 1219 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1220 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 28 0x01000000
+Debug: 1221 2139 target.c:2166 target_write_u32(): address: 0xe0002000, value: 0x00000003
+Debug: 1222 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002000
+Debug: 1223 2139 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1224 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1225 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000003
+Debug: 1226 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1227 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002000
+Debug: 1228 2139 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1229 2139 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1230 2139 target.c:2078 target_read_u32(): address: 0xe0002000, value: 0x00000041
+Debug: 1231 2139 target.c:2166 target_write_u32(): address: 0xe0002008, value: 0x00000000
+Debug: 1232 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002008
+Debug: 1233 2139 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1234 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1235 2154 target.c:2166 target_write_u32(): address: 0xe000200c, value: 0x00000000
+Debug: 1236 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000200c
+Debug: 1237 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1238 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1239 2154 target.c:2166 target_write_u32(): address: 0xe0002010, value: 0x00000000
+Debug: 1240 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002010
+Debug: 1241 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1242 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1243 2154 target.c:2166 target_write_u32(): address: 0xe0002014, value: 0x00000000
+Debug: 1244 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002014
+Debug: 1245 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1246 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1247 2154 target.c:2166 target_write_u32(): address: 0xe0001020, value: 0x00000000
+Debug: 1248 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001020
+Debug: 1249 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1250 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1251 2154 target.c:2166 target_write_u32(): address: 0xe0001024, value: 0x00000000
+Debug: 1252 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001024
+Debug: 1253 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1254 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1255 2154 target.c:2166 target_write_u32(): address: 0xe0001028, value: 0x00000000
+Debug: 1256 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001028
+Debug: 1257 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1258 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1259 2154 target.c:2166 target_write_u32(): address: 0xe0001030, value: 0x00000000
+Debug: 1260 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001030
+Debug: 1261 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1262 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1263 2154 target.c:2166 target_write_u32(): address: 0xe0001034, value: 0x00000000
+Debug: 1264 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001034
+Debug: 1265 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1266 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1267 2154 target.c:2166 target_write_u32(): address: 0xe0001038, value: 0x00000000
+Debug: 1268 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0001038
+Debug: 1269 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1270 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1271 2154 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1272 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1273 2154 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1274 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1275 2170 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1276 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1277 2170 cortex_m.c:455 cortex_m_debug_entry():  
+Debug: 1278 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 1279 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1280 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed30
+Debug: 1281 2170 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1282 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1283 2170 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1284 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1285 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0x00000009
+Debug: 1286 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1287 2170 cortex_m.c:203 cortex_m_clear_halt():  NVIC_DFSR 0x9
+Debug: 1288 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1289 2170 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1290 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1291 2170 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1292 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1293 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000000
+Debug: 1294 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1295 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1296 2170 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 0  value 0xffffffff
+Debug: 1297 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000001
+Debug: 1298 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1299 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1300 2170 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 1  value 0xffffffff
+Debug: 1301 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000002
+Debug: 1302 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1303 2170 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1304 2170 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 2  value 0xffffffff
+Debug: 1305 2170 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000003
+Debug: 1306 2170 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1307 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1308 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 3  value 0xffffffff
+Debug: 1309 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000004
+Debug: 1310 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1311 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1312 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 4  value 0xffffffff
+Debug: 1313 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000005
+Debug: 1314 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1315 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1316 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 5  value 0xffffffff
+Debug: 1317 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000006
+Debug: 1318 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1319 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1320 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 6  value 0xffffffff
+Debug: 1321 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000007
+Debug: 1322 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1323 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1324 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 7  value 0xffffffff
+Debug: 1325 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000008
+Debug: 1326 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1327 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1328 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 8  value 0xffffffff
+Debug: 1329 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000009
+Debug: 1330 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1331 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1332 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 9  value 0xffffffff
+Debug: 1333 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000a
+Debug: 1334 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1335 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1336 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 10  value 0xffffffff
+Debug: 1337 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000b
+Debug: 1338 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1339 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1340 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 11  value 0xffffffff
+Debug: 1341 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000c
+Debug: 1342 2185 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1343 2185 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1344 2185 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 12  value 0xffffffff
+Debug: 1345 2185 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000d
+Debug: 1346 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1347 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1348 2201 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 13  value 0x20004000
+Debug: 1349 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000e
+Debug: 1350 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1351 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1352 2201 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 14  value 0xffffffff
+Debug: 1353 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000f
+Debug: 1354 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1355 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1356 2201 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 15  value 0x1af4
+Debug: 1357 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000010
+Debug: 1358 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1359 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1360 2201 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 16  value 0xc1000000
+Debug: 1361 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000011
+Debug: 1362 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1363 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1364 2201 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 17  value 0x20004000
+Debug: 1365 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000012
+Debug: 1366 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1367 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1368 2201 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 18  value 0xfffffffc
+Debug: 1369 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1370 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1371 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1372 2201 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 19 value 0x0
+Debug: 1373 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1374 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1375 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1376 2201 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 20 value 0x0
+Debug: 1377 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1378 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1379 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1380 2201 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 21 value 0x0
+Debug: 1381 2201 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1382 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1383 2201 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1384 2201 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 22 value 0x0
+Debug: 1385 2201 cortex_m.c:515 cortex_m_debug_entry(): entered debug state in core mode: Thread at PC 0x1af4, target->state: halted
+Debug: 1386 2201 target.c:1415 target_call_event_callbacks(): target event 0 (gdb-halt)
+Debug: 1387 2201 target.c:1415 target_call_event_callbacks(): target event 1 (halted)
+User : 1388 2201 target.c:1788 target_arch_state(): target state: halted
+User : 1389 2201 armv7m.c:616 armv7m_arch_state(): target halted due to debug-request, current mode: Thread 
+xPSR: 0xc1000000 pc: 0x00001af4 msp: 0x20004000
+Debug: 1390 2201 target.c:1415 target_call_event_callbacks(): target event 6 (gdb-end)
+Debug: 1391 2201 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu curstate
+Debug: 1392 2201 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu curstate
+Debug: 1393 2201 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_GBQ868.cpu invoke-event reset-end
+Debug: 1394 2201 command.c:145 script_debug(): command - ocd_GBQ868.cpu ocd_GBQ868.cpu invoke-event reset-end
+Debug: 1395 2201 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 18 (reset-end) action:  
+	
+	#Disable halt mode
+	mww 0x50005040 0x87
+	mww 0x50005040 0x9A
+	mmw 0x50005050 0x0 0x8
+	mww 0x50005040 0x00
+	
+	#Disable WDG
+	#mww 0x400D0000 0x55
+	#mww 0x400D0000 0x00
+
+Debug: 1396 2201 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005040 0x87
+Debug: 1397 2201 command.c:145 script_debug(): command - mww ocd_mww 0x50005040 0x87
+Debug: 1398 2201 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1399 2217 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1401 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005040
+Debug: 1402 2217 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1403 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1404 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000087
+Debug: 1405 2217 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1406 2217 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005040 0x9A
+Debug: 1407 2217 command.c:145 script_debug(): command - mww ocd_mww 0x50005040 0x9A
+Debug: 1408 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1409 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1410 2217 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1411 2217 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1412 2217 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1414 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005040
+Debug: 1415 2217 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1416 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1417 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x0000009a
+Debug: 1418 2217 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1419 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005050
+Debug: 1420 2217 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1421 2217 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1422 2217 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005050 23
+Debug: 1423 2217 command.c:145 script_debug(): command - mww ocd_mww 0x50005050 23
+Debug: 1424 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1425 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1426 2217 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1427 2217 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1428 2217 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1430 2217 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005050
+Debug: 1431 2217 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1432 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1433 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000017
+Debug: 1434 2232 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1435 2232 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_mww 0x50005040 0x00
+Debug: 1436 2232 command.c:145 script_debug(): command - mww ocd_mww 0x50005040 0x00
+Debug: 1437 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1438 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1439 2232 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1440 2232 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1441 2232 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1443 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50005040
+Debug: 1444 2232 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1445 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1446 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1447 2232 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1448 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1449 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1450 2232 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1451 2232 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1452 2232 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1453 2232 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1454 2232 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1455 2232 gdb_server.c:2836 gdb_input_inner(): received packet: 'g'
+Debug: 1456 2232 gdb_server.c:2836 gdb_input_inner(): received packet: 'm1af4,4'
+Debug: 1457 2232 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00001af4, len: 0x00000004
+Debug: 1458 2232 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x00001af4
+Debug: 1459 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00001af4
+Debug: 1460 2232 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1461 2232 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1462 2232 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1463 2248 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1464 2295 gdb_server.c:2836 gdb_input_inner(): received packet: 'm40015ec,2'
+Debug: 1465 2295 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x040015ec, len: 0x00000002
+Debug: 1466 2295 target.c:1930 target_read_buffer(): reading buffer of 2 byte at 0x040015ec
+Debug: 1467 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x040015ec
+Debug: 1468 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000011
+Debug: 1469 2295 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1470 2295 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1471 2295 gdb_server.c:2836 gdb_input_inner(): received packet: 'm40015ec,2'
+Debug: 1472 2295 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x040015ec, len: 0x00000002
+Debug: 1473 2295 target.c:1930 target_read_buffer(): reading buffer of 2 byte at 0x040015ec
+Debug: 1474 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x040015ec
+Debug: 1475 2295 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1476 2295 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1477 2295 gdb_server.c:2836 gdb_input_inner(): received packet: 'm40015ec,2'
+Debug: 1478 2295 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x040015ec, len: 0x00000002
+Debug: 1479 2295 target.c:1930 target_read_buffer(): reading buffer of 2 byte at 0x040015ec
+Debug: 1480 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x040015ec
+Debug: 1481 2295 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1482 2295 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1483 2295 gdb_server.c:2836 gdb_input_inner(): received packet: 'Z1,40015ec,2'
+Debug: 1484 2295 gdb_server.c:1602 gdb_breakpoint_watchpoint_packet(): -
+Debug: 1485 2295 target.c:2166 target_write_u32(): address: 0xe0002008, value: 0x440015ed
+Debug: 1486 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002008
+Debug: 1487 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1488 2295 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x440015ed
+Debug: 1489 2295 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1490 2295 cortex_m.c:1203 cortex_m_set_breakpoint(): fpc_num 0 fpcr_value 0x440015ed
+Debug: 1491 2295 cortex_m.c:1242 cortex_m_set_breakpoint(): BPID: 0, Type: 0, Address: 0x040015ec Length: 2 (set=1)
+Debug: 1492 2295 breakpoints.c:106 breakpoint_add_internal(): added hardware breakpoint at 0x040015ec of length 0x00000002, (BPID: 0)
+Debug: 1493 2407 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1494 2407 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1495 2407 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1496 2407 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1497 2407 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1498 2516 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1499 2516 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1500 2594 gdb_server.c:2836 gdb_input_inner(): received packet: 'vCont?'
+Debug: 1501 2594 gdb_server.c:2836 gdb_input_inner(): received packet: 'Hc0'
+Debug: 1502 2594 gdb_server.c:2836 gdb_input_inner(): received packet: 'c'
+Debug: 1503 2594 target.c:1415 target_call_event_callbacks(): target event 5 (gdb-start)
+Debug: 1504 2594 gdb_server.c:1570 gdb_step_continue_packet(): -
+Debug: 1505 2594 gdb_server.c:1579 gdb_step_continue_packet(): continue
+Debug: 1506 2594 target.c:1415 target_call_event_callbacks(): target event 3 (resume-start)
+Debug: 1507 2594 target.c:1736 target_free_all_working_areas_restore(): freeing all working areas
+Debug: 1508 2594 target.c:1502 print_wa_layout():    0x20000100-0x200010ff (4096 bytes)
+Debug: 1509 2594 armv7m.c:209 armv7m_restore_context():  
+Debug: 1510 2594 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0001
+Debug: 1511 2594 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1512 2594 target.c:1415 target_call_event_callbacks(): target event 2 (resumed)
+Debug: 1513 2594 cortex_m.c:843 cortex_m_resume(): target resumed at 0x1af4
+Debug: 1514 2594 target.c:1415 target_call_event_callbacks(): target event 4 (resume-end)
+Debug: 1515 2705 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1516 2705 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1517 2814 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1518 2814 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1519 2923 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1520 2923 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1521 3033 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1522 3033 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1523 3142 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1524 3142 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1525 3252 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1526 3252 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1527 3361 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1528 3361 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1529 3470 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1530 3470 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1531 3580 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1532 3580 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1533 3689 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1534 3689 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1535 3798 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1536 3798 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1537 3908 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1538 3908 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1539 4017 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1540 4017 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1541 4126 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1542 4126 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1543 4236 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1544 4236 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1545 4345 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1546 4345 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1547 4455 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1548 4455 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1549 4564 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1550 4564 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1551 4673 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1552 4673 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1553 4783 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1554 4783 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1555 4892 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1556 4892 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1557 5001 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1558 5001 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1559 5111 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1560 5111 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1561 5220 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1562 5220 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1563 5329 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1564 5329 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1565 5439 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1566 5439 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1567 5548 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1568 5548 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1569 5658 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1570 5658 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1571 5767 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1572 5767 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1573 5876 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1574 5876 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1575 5986 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1576 5986 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1577 6095 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1578 6095 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1579 6204 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1580 6204 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1581 6314 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1582 6314 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1583 6423 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1584 6423 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1585 6532 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1586 6532 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1587 6642 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1588 6642 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1589 6673 gdb_server.c:2836 gdb_input_inner(): received packet: ''
+Debug: 1590 6673 cortex_m.c:653 cortex_m_halt(): target->state: running
+Debug: 1591 6673 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 1592 6674 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1593 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1594 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1595 6781 cortex_m.c:455 cortex_m_debug_entry():  
+Debug: 1596 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0xa05f0003
+Debug: 1597 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1598 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000ed30
+Debug: 1599 6781 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1600 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1601 6781 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1602 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1603 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 16 0x00000001
+Debug: 1604 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1605 6781 cortex_m.c:203 cortex_m_clear_halt():  NVIC_DFSR 0x1
+Debug: 1606 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1607 6781 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1608 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1609 6781 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1610 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1611 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000000
+Debug: 1612 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1613 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1614 6781 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 0  value 0xe000ed10
+Debug: 1615 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000001
+Debug: 1616 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1617 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1618 6781 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 1  value 0x4
+Debug: 1619 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000002
+Debug: 1620 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1621 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1622 6781 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 2  value 0x4
+Debug: 1623 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000003
+Debug: 1624 6781 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1625 6781 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1626 6781 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 3  value 0x1bf3
+Debug: 1627 6781 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000004
+Debug: 1628 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1629 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1630 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 4  value 0x50000000
+Debug: 1631 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000005
+Debug: 1632 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1633 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1634 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 5  value 0xffffffff
+Debug: 1635 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000006
+Debug: 1636 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1637 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1638 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 6  value 0xffffffff
+Debug: 1639 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000007
+Debug: 1640 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1641 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1642 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 7  value 0x20003fd4
+Debug: 1643 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000008
+Debug: 1644 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1645 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1646 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 8  value 0xffffffff
+Debug: 1647 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000009
+Debug: 1648 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1649 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1650 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 9  value 0xffffffff
+Debug: 1651 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000a
+Debug: 1652 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1653 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1654 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 10  value 0xffffffff
+Debug: 1655 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000b
+Debug: 1656 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1657 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1658 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 11  value 0xffffffff
+Debug: 1659 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000c
+Debug: 1660 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1661 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1662 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 12  value 0xffffffff
+Debug: 1663 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000d
+Debug: 1664 6796 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1665 6796 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1666 6796 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 13  value 0x20003fd4
+Debug: 1667 6796 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000e
+Debug: 1668 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1669 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1670 6812 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 14  value 0x65b
+Debug: 1671 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x0000000f
+Debug: 1672 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1673 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1674 6812 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 15  value 0x1c1e
+Debug: 1675 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000010
+Debug: 1676 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1677 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1678 6812 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 16  value 0x21000000
+Debug: 1679 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000011
+Debug: 1680 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1681 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1682 6812 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 17  value 0x20003fd4
+Debug: 1683 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000012
+Debug: 1684 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1685 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1686 6812 cortex_m.c:1568 cortex_m_load_core_reg_u32(): load from core reg 18  value 0xfffffffc
+Debug: 1687 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1688 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1689 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1690 6812 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 19 value 0x0
+Debug: 1691 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1692 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1693 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1694 6812 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 20 value 0x0
+Debug: 1695 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1696 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1697 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1698 6812 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 21 value 0x0
+Debug: 1699 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 20 0x00000014
+Debug: 1700 6812 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 24
+Debug: 1701 6812 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1702 6812 cortex_m.c:1634 cortex_m_load_core_reg_u32(): load from special reg 22 value 0x0
+Debug: 1703 6812 cortex_m.c:515 cortex_m_debug_entry(): entered debug state in core mode: Thread at PC 0x1c1e, target->state: halted
+Debug: 1704 6812 target.c:1415 target_call_event_callbacks(): target event 0 (gdb-halt)
+Debug: 1705 6812 target.c:1415 target_call_event_callbacks(): target event 1 (halted)
+Debug: 1706 6812 target.c:1415 target_call_event_callbacks(): target event 6 (gdb-end)
+Debug: 1707 6812 gdb_server.c:2836 gdb_input_inner(): received packet: 'g'
+Debug: 1708 6812 gdb_server.c:2836 gdb_input_inner(): received packet: 'm1c1e,4'
+Debug: 1709 6812 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00001c1e, len: 0x00000004
+Debug: 1710 6812 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x00001c1e
+Debug: 1711 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00001c1e
+Debug: 1712 6812 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1713 6812 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000011
+Debug: 1714 6828 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1715 6828 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1716 6828 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1717 6874 gdb_server.c:2836 gdb_input_inner(): received packet: 'm65a,4'
+Debug: 1718 6874 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x0000065a, len: 0x00000004
+Debug: 1719 6874 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x0000065a
+Debug: 1720 6874 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x0000065a
+Debug: 1721 6874 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1722 6874 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1723 6874 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1724 6874 gdb_server.c:2836 gdb_input_inner(): received packet: 'm65a,4'
+Debug: 1725 6874 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x0000065a, len: 0x00000004
+Debug: 1726 6874 target.c:1930 target_read_buffer(): reading buffer of 4 byte at 0x0000065a
+Debug: 1727 6874 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x0000065a
+Debug: 1728 6874 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1729 6874 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 12
+Debug: 1730 6874 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1731 6937 gdb_server.c:2836 gdb_input_inner(): received packet: 'm50000050,200'
+Debug: 1732 6937 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x50000050, len: 0x00000200
+Debug: 1733 6937 target.c:1930 target_read_buffer(): reading buffer of 512 byte at 0x50000050
+Debug: 1734 6937 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x50000050
+Debug: 1735 6938 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1736 6938 adi_v5_cmsis_dap.c:182 cmsis_dap_queue_ap_read_block(): CMSIS-ADI: cmsis_dap_queue_ap_read_block 0x00000200
+Debug: 1737 6940 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1738 6940 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1739 6940 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1740 6940 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1741 6940 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1742 6940 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1743 6971 gdb_server.c:2836 gdb_input_inner(): received packet: 'm0,200'
+Debug: 1744 6971 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00000000, len: 0x00000200
+Debug: 1745 6971 target.c:1930 target_read_buffer(): reading buffer of 512 byte at 0x00000000
+Debug: 1746 6971 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00000000
+Debug: 1747 6971 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1748 6971 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1749 6971 adi_v5_cmsis_dap.c:182 cmsis_dap_queue_ap_read_block(): CMSIS-ADI: cmsis_dap_queue_ap_read_block 0x00000200
+Debug: 1750 6971 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1751 7002 gdb_server.c:2836 gdb_input_inner(): received packet: 'qXfer:threads:read::0,fff'
+Debug: 1752 7065 gdb_server.c:2836 gdb_input_inner(): received packet: 'p11'
+Debug: 1753 7065 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1754 7065 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1755 7065 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1756 7065 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1757 7065 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1758 7065 gdb_server.c:2836 gdb_input_inner(): received packet: 'p12'
+Debug: 1759 7065 gdb_server.c:2836 gdb_input_inner(): received packet: 'p13'
+Debug: 1760 7065 gdb_server.c:2836 gdb_input_inner(): received packet: 'p14'
+Debug: 1761 7065 gdb_server.c:2836 gdb_input_inner(): received packet: 'p15'
+Debug: 1762 7065 gdb_server.c:2836 gdb_input_inner(): received packet: 'p16'
+Debug: 1763 7122 gdb_server.c:2836 gdb_input_inner(): received packet: 'm1a00,200'
+Debug: 1764 7122 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00001a00, len: 0x00000200
+Debug: 1765 7122 target.c:1930 target_read_buffer(): reading buffer of 512 byte at 0x00001a00
+Debug: 1766 7122 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00001a00
+Debug: 1767 7122 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1768 7122 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1769 7122 adi_v5_cmsis_dap.c:182 cmsis_dap_queue_ap_read_block(): CMSIS-ADI: cmsis_dap_queue_ap_read_block 0x00000200
+Debug: 1770 7122 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1771 7122 gdb_server.c:2836 gdb_input_inner(): received packet: 'm1c00,200'
+Debug: 1772 7122 gdb_server.c:1401 gdb_read_memory_packet(): addr: 0x00001c00, len: 0x00000200
+Debug: 1773 7122 target.c:1930 target_read_buffer(): reading buffer of 512 byte at 0x00001c00
+Debug: 1774 7122 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0x00001c00
+Debug: 1775 7122 adi_v5_cmsis_dap.c:182 cmsis_dap_queue_ap_read_block(): CMSIS-ADI: cmsis_dap_queue_ap_read_block 0x00000200
+Debug: 1776 7138 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1777 7245 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1778 7245 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1779 7245 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1780 7245 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1781 7245 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1782 7354 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1783 7354 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1784 7464 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1785 7464 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1786 7573 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1787 7573 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1788 7683 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1789 7683 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1790 7792 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1791 7792 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1792 7901 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1793 7901 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1794 8011 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1795 8011 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1796 8120 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1797 8120 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1798 8229 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1799 8229 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1800 8339 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1801 8339 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1802 8448 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1803 8448 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1804 8557 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1805 8557 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1806 8667 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1807 8667 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1808 8776 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1809 8776 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1810 8886 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1811 8886 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1812 8995 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1813 8995 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Info : 1814 9065 server.c:492 server_loop(): dropped 'terminal' connection
+Debug: 1815 9072 gdb_server.c:2836 gdb_input_inner(): received packet: 'z1,40015ec,2'
+Debug: 1816 9072 gdb_server.c:1602 gdb_breakpoint_watchpoint_packet(): -
+Debug: 1817 9072 cortex_m.c:1263 cortex_m_unset_breakpoint(): BPID: 0, Type: 0, Address: 0x040015ec Length: 2 (set=1)
+Debug: 1818 9072 target.c:2166 target_write_u32(): address: 0xe0002008, value: 0x00000000
+Debug: 1819 9072 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe0002008
+Debug: 1820 9072 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000000
+Debug: 1821 9074 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000012
+Debug: 1822 9075 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 12 0x00000000
+Debug: 1823 9076 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+Debug: 1824 9076 breakpoints.c:309 breakpoint_free(): free BPID: 0 --> 0
+Debug: 1825 9076 gdb_server.c:2836 gdb_input_inner(): received packet: 'D'
+Debug: 1826 9076 target.c:1415 target_call_event_callbacks(): target event 24 (gdb-detach)
+Debug: 1827 9076 target.c:4436 target_handle_event(): target: (0) GBQ868.cpu (cortex_m) event: 24 (gdb-detach) action:  
+ shutdown
+
+Debug: 1828 9076 command.c:145 script_debug(): command - ocd_command ocd_command type ocd_shutdown
+Debug: 1829 9076 command.c:145 script_debug(): command - shutdown ocd_shutdown
+Debug: 1830 9076 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 0 0xa2000002
+Debug: 1831 9077 adi_v5_cmsis_dap.c:156 cmsis_dap_queue_ap_write(): CMSIS-ADI: cmsis_dap_queue_ap_write 4 0xe000edf0
+Debug: 1832 9077 adi_v5_cmsis_dap.c:136 cmsis_dap_queue_ap_read(): CMSIS-ADI: cmsis_dap_queue_ap_read 16
+Debug: 1833 9077 adi_v5_cmsis_dap.c:99 cmsis_dap_queue_dp_write(): CMSIS-ADI: cmsis_dap_queue_dp_write 8 0x00000010
+Debug: 1834 9079 adi_v5_cmsis_dap.c:233 cmsis_dap_run(): CMSIS-ADI: cmsis_dap_run
+User : 1836 9079 server.c:619 handle_shutdown_command(): shutdown command invoked
